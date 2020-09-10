@@ -26,6 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username: loparcog
 linkedin_username: loparcog
+timezone: America/New_York
 
 # Build settings
 theme: minima
