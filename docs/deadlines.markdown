@@ -53,6 +53,10 @@ title: Deadlines
 - 4A03 Gamification, Team Formation, Declaration of Incorporation (5%)
     - Including team name, logo, mission statement, and individual bio sheets
 
+### Tuesday, September 22
+- 4E03 Assignment 1
+    - Due @ 17:00
+
 ### Sunday, October 4
 - 4G06A Group Choice, Project Choice, and Justification (unmarked)
 - 4G06A Project Goals Document (2%)
