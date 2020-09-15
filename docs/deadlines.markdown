@@ -40,9 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Sunday, September 13
-- 4HC3 Practice 1: UI Critique (unmarked)
-
 ### Friday, September 18
 - 4AA4 Lab Safety Quiz
 
@@ -50,9 +47,15 @@ title: Deadlines
 - 3Y03 Assignment 1
 
 ### Sunday, September 20
-- 4HC3 Assignment 1: UI Critique
+- 4HC3 Assignment 1: UI Critique (5%)
 
 ### Monday, September 21
-- 4A03 Gamification, Team Formation
-- 4A03 Declaration of Incorporation
+- 4A03 Gamification, Team Formation, Declaration of Incorporation (5%)
     - Including team name, logo, mission statement, and individual bio sheets
+
+### Sunday, October 4
+- 4G06A Group Choice, Project Choice, and Justification (unmarked)
+- 4G06A Project Goals Document (2%)
+
+# Old Deadlines
+- September 13, 4HC3 Practice 1: UI Critique (unmarked)
