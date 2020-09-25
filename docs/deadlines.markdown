@@ -137,3 +137,6 @@ title: Deadlines
 - September 18: 4AA4 Lab Safety Quiz
 - September 19: 3Y03 Assignment 1
 - Sunday, September 20: 4HC3 Assignment 1: UI Critique (5%)
+- Monday, September 21: 4A03 Gamification: Team Formation, Declaration of Incorporation and Documentation (5%)
+- Tuesday, September 22: 4E03 Assignment 1
+- Friday, September 25: 4HC3 Practice 1: JS Interactivity (unmarked)
