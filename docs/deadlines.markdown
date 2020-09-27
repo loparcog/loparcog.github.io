@@ -40,9 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Sunday, September 27
-- 4HC3 Project: Proposal Document (3%)
-
 ### Monday, September 28
 - 4A03 Gamification: Field Analysis
 
@@ -126,7 +123,8 @@ title: Deadlines
 - September 13, 4HC3 Practice 1: UI Critique (unmarked)
 - September 18: 4AA4 Lab Safety Quiz
 - September 19: 3Y03 Assignment 1
-- Sunday, September 20: 4HC3 Assignment 1: UI Critique (5%)
-- Monday, September 21: 4A03 Gamification: Team Formation, Declaration of Incorporation and Documentation (5%)
-- Tuesday, September 22: 4E03 Assignment 1
-- Friday, September 25: 4HC3 Practice 1: JS Interactivity (unmarked)
+- September 20: 4HC3 Assignment 1: UI Critique (5%)
+- September 21: 4A03 Gamification: Team Formation, Declaration of Incorporation and Documentation (5%)
+- September 22: 4E03 Assignment 1
+- September 25: 4HC3 Practice 1: JS Interactivity (unmarked)
+- September 27: 4HC3 Project: Proposal Document (3%)
