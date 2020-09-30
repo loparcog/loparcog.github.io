@@ -40,9 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Monday, September 28
-- 4A03 Gamification: Field Analysis
-
 ### Friday, October 2
 - **3Y03 MIDTERM 1/2 (15%)**
 
@@ -53,6 +50,7 @@ title: Deadlines
 - 4G06A Capstone
     - Project Goals Document (2%)
     - Group Choice, Project Choice, and Justification (unmarked)
+- 4HC3 Assignment 2: Web UI Design (5%)
 
 ### Monday, October 5
 - 4A03 Gamification: Risk Assessment & Central Question (10%)
@@ -128,3 +126,4 @@ title: Deadlines
 - September 22: 4E03 Assignment 1
 - September 25: 4HC3 Practice 1: JS Interactivity (unmarked)
 - September 27: 4HC3 Project: Proposal Document (3%)
+- September 28: 4A03 Gamification: Field Analysis
