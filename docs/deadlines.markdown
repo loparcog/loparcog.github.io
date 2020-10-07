@@ -53,12 +53,13 @@ title: Deadlines
 - 4HC3 Assignment 2: Web UI Design (5%)
 
 ### Monday, October 5
-- 4A03 Gamification: Risk Assessment & Central Question (10%)
+- 4A03 Individual Assignment 1
 
 ### Friday, October 9
 - 4HC3 Project
     - Design Document (4%)
     - Proposal Feedback (1%)
+- 4A03 Gamification: Risk Assessment & Central Question (10%)
 
 ### Saturday, October 17
 - 3Y03 Assignment 3
