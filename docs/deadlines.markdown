@@ -40,50 +40,44 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Friday, October 2
-- **3Y03 MIDTERM 1/2 (15%)**
-
-### Saturday, October 3
-- 3Y03 Assignment 2
-
-### Sunday, October 4
-- 4G06A Capstone
-    - Project Goals Document (2%)
-    - Group Choice, Project Choice, and Justification (unmarked)
-- 4HC3 Assignment 2: Web UI Design (5%)
-
-### Monday, October 5
-- 4A03 Individual Assignment 1
-
-### Friday, October 9
-- 4HC3 Project
-    - Design Document (4%)
-    - Proposal Feedback (1%)
-- 4A03 Gamification: Risk Assessment & Central Question (10%)
-
-### Saturday, October 17
-- 3Y03 Assignment 3
-
 ### Monday, October 19
 - 4A03 Gamification: Ethical Analysis (10%)
 
 ### Tuesday, October 20
 - **4AA4 MIDTERM (30%)**
+- 4E03 Assignment 4
+
+### Thursday, October 22
+- 4E03 Kritik Activity 1
 
 ### Saturday, October 24
-- 3Y03 Assignment 4
+- 3Y03 Assignment 3
 
 ### Sunday, October 25
 - 4HC3 Project: Usability Test Plan (4%)
 
+### Monday, October 26
+- 4A03 Individual Assignment 2
+
+### Tuesday, October 27
+- 4E03 Kritik Feedback
+
+### Wednesday, October 28
+- **4E03 MIDTERM (25%)**
+
+### Thursday, October 29
+- 4E03 Kritik Feedback on Feedback
+    - I can't make this shit up we're paying for this service and being marked on it
+
 ### Sunday, November 1
 - 4G06A Capstone: Draft System Requirements (5%)
+- 4HC3 Assignment 4: React SPA w/ Websockets (5%)
 
 ### Monday, November 2
 - 4A03 Gamification: Technology Public Policy (10%)
 
 ### Saturday, November 7
-- 3Y03 Assignment 5
+- 3Y03 Assignment 4
 
 ### Sunday, November 8
 - 4G06A Capstone: Development Process (1%)
@@ -96,17 +90,18 @@ title: Deadlines
 
 ### Monday, November 16
 - 4A03 Gamification: Inquiry (20%)
+- 4A03 Individual Assignment 4
 - 4G06A Capstone: Demo contract & Virtual Proof of Concept (5%)
     - Onwards through to Thursday, November 26
 
 ### Saturday, November 21
-- 3Y03 Assignment 6
+- 3Y03 Assignment 5
 
 ### Monday, November 30
 - 4A03 Gamification: Solution Proposal (15%)
 
 ### Saturday, December 5
-- 3Y03 Assignment 7
+- 3Y03 Assignment 6
 
 ### Sunday, December 6
 - 4HC3 Project
@@ -128,3 +123,14 @@ title: Deadlines
 - September 25: 4HC3 Practice 1: JS Interactivity (unmarked)
 - September 27: 4HC3 Project: Proposal Document (3%)
 - September 28: 4A03 Gamification: Field Analysis
+- October 2: **3Y03 MIDTERM 1/2 (15%)**
+- October 3: 3Y03 Assignment 2
+- October 4: 4G06A Capstone
+    - Project Goals Document (2%)
+    - Group Choice, Project Choice, and Justification (unmarked)
+    - 4HC3 Assignment 2: Web UI Design (5%)
+- October 5: 4A03 Individual Assignment 1
+- October 9: 4HC3 Project
+    - Design Document (4%)
+    - Proposal Feedback (1%)
+    - 4A03 Gamification: Risk Assessment & Central Question (10%)
