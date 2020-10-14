@@ -40,9 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Monday, October 19
-- 4A03 Gamification: Ethical Analysis (10%)
-
 ### Tuesday, October 20
 - **4AA4 MIDTERM (30%)**
 - 4E03 Assignment 4
@@ -58,6 +55,7 @@ title: Deadlines
 
 ### Monday, October 26
 - 4A03 Individual Assignment 2
+- 4A03 Gamification: Ethical Analysis (10%)
 
 ### Tuesday, October 27
 - 4E03 Kritik Feedback
