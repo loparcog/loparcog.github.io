@@ -40,6 +40,9 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
+### Monday, October 19
+- 4HC3 Assignment 3: Component-based UI w/ React (5%)
+
 ### Tuesday, October 20
 - **4AA4 MIDTERM (30%)**
 - 4E03 Assignment 4
