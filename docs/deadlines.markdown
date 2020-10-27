@@ -40,35 +40,15 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Monday, October 19
-- 4HC3 Assignment 3: Component-based UI w/ React (5%)
-
-### Tuesday, October 20
-- **4AA4 MIDTERM (30%)**
-- 4E03 Assignment 4
-
-### Thursday, October 22
-- 4E03 Kritik Activity 1
-
-### Saturday, October 24
-- 3Y03 Assignment 3
-
-### Sunday, October 25
-- 4HC3 Project: Usability Test Plan (4%)
-
-### Monday, October 26
-- 4A03 Individual Assignment 2
-- 4A03 Gamification: Ethical Analysis (10%)
-
-### Tuesday, October 27
-- 4E03 Kritik Feedback
-
 ### Wednesday, October 28
 - **4E03 MIDTERM (25%)**
 
 ### Thursday, October 29
 - 4E03 Kritik Feedback on Feedback
     - I can't make this shit up we're paying for this service and being marked on it
+
+### Friday, October 30
+- 4E03 Assignment 5
 
 ### Sunday, November 1
 - 4G06A Capstone: Draft System Requirements (5%)
@@ -77,11 +57,20 @@ title: Deadlines
 ### Monday, November 2
 - 4A03 Gamification: Technology Public Policy (10%)
 
+### Tuesday, November 3
+- 4E03 Assignment 6
+
+### Thursday, November 5
+- 4E03 Kritik Activity 2
+
 ### Saturday, November 7
 - 3Y03 Assignment 4
 
 ### Sunday, November 8
 - 4G06A Capstone: Development Process (1%)
+
+### Tuesday, November 10
+- 4E03 Assignment 7
 
 ### Friday, November 13
 - **3Y03 MIDTERM 2/2 (15%)**
@@ -95,11 +84,20 @@ title: Deadlines
 - 4G06A Capstone: Demo contract & Virtual Proof of Concept (5%)
     - Onwards through to Thursday, November 26
 
+### Tuesday, November 17
+- 4E03 Assignment 8
+
 ### Saturday, November 21
 - 3Y03 Assignment 5
 
+### Tuesday, November 24
+- 4E03 Assignment 9
+
 ### Monday, November 30
 - 4A03 Gamification: Solution Proposal (15%)
+
+### Tuesday, Decenber 1
+- 4E03 Assignment 10
 
 ### Saturday, December 5
 - 3Y03 Assignment 6
@@ -108,6 +106,9 @@ title: Deadlines
 - 4HC3 Project
     - Test Participation Report (4%)
     - Usability Test Results Report (4%)
+
+### Tuesday, December 8
+- 4E03 Assignment 11
 
 ### Sunday, December 20
 - 4G06A Capstone
@@ -135,3 +136,12 @@ title: Deadlines
     - Design Document (4%)
     - Proposal Feedback (1%)
     - 4A03 Gamification: Risk Assessment & Central Question (10%)
+- October 19: 4HC3 Assignment 3: Component-based UI w/ React (5%)
+- October 20:  **4AA4 MIDTERM (30%)**
+    - 4E03 Assignment 4
+- October 22: 4E03 Kritik Activity 1
+- October 24: 3Y03 Assignment 3
+- October 25: 4HC3 Project: Usability Test Plan (4%)
+- October 26: 4A03 Individual Assignment 2
+    - 4A03 Gamification: Ethical Analysis (10%)
+- October 27: 4E03 Kritik Feedback
