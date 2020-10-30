@@ -40,16 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Wednesday, October 28
-- **4E03 MIDTERM (25%)**
-
-### Thursday, October 29
-- 4E03 Kritik Feedback on Feedback
-    - I can't make this shit up we're paying for this service and being marked on it
-
-### Friday, October 30
-- 4E03 Assignment 5
-
 ### Sunday, November 1
 - 4G06A Capstone: Draft System Requirements (5%)
 - 4HC3 Assignment 4: React SPA w/ Websockets (5%)
@@ -65,9 +55,11 @@ title: Deadlines
 
 ### Saturday, November 7
 - 3Y03 Assignment 4
+- 3Y03 Assignment 5
 
 ### Sunday, November 8
 - 4G06A Capstone: Development Process (1%)
+- 4HC3 Assignment 5: User Help (5%)
 
 ### Tuesday, November 10
 - 4E03 Assignment 7
@@ -88,7 +80,7 @@ title: Deadlines
 - 4E03 Assignment 8
 
 ### Saturday, November 21
-- 3Y03 Assignment 5
+- 3Y03 Assignment 6
 
 ### Tuesday, November 24
 - 4E03 Assignment 9
@@ -100,7 +92,7 @@ title: Deadlines
 - 4E03 Assignment 10
 
 ### Saturday, December 5
-- 3Y03 Assignment 6
+- 3Y03 Assignment 7
 
 ### Sunday, December 6
 - 4HC3 Project
@@ -145,3 +137,7 @@ title: Deadlines
 - October 26: 4A03 Individual Assignment 2
     - 4A03 Gamification: Ethical Analysis (10%)
 - October 27: 4E03 Kritik Feedback
+- October 28: **4E03 MIDTERM (25%)**
+- October 29: 4E03 Kritik Feedback on Feedback
+    - I can't make this shit up we're paying for this service and being marked on it
+- October 30: 4E03 Assignment 5
