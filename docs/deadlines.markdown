@@ -40,13 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Sunday, November 1
-- 4G06A Capstone: Draft System Requirements (5%)
-- 4HC3 Assignment 4: React SPA w/ Websockets (5%)
-
-### Monday, November 2
-- 4A03 Gamification: Technology Public Policy (10%)
-
 ### Tuesday, November 3
 - 4E03 Assignment 6
 
@@ -60,6 +53,9 @@ title: Deadlines
 ### Sunday, November 8
 - 4G06A Capstone: Development Process (1%)
 - 4HC3 Assignment 5: User Help (5%)
+
+### Monday, November 9
+- 4A03 Gamification: Technology Public Policy (10%)
 
 ### Tuesday, November 10
 - 4E03 Assignment 7
@@ -141,3 +137,5 @@ title: Deadlines
 - October 29: 4E03 Kritik Feedback on Feedback
     - I can't make this shit up we're paying for this service and being marked on it
 - October 30: 4E03 Assignment 5
+- November 1: 4G06A Capstone: Draft System Requirements (5%)
+    - 4HC3 Assignment 4: React SPA w/ Websockets (5%)
