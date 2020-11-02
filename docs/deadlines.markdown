@@ -78,6 +78,9 @@ title: Deadlines
 ### Saturday, November 21
 - 3Y03 Assignment 6
 
+### Sunday, November 22
+- 4HC3 Assignment 6
+
 ### Tuesday, November 24
 - 4E03 Assignment 9
 
