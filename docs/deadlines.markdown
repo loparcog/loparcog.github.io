@@ -40,105 +40,137 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Tuesday, November 3
-- 4E03 Assignment 6
+### Wednesday, January 20
+- Capstone - Draft System Design (5%)
 
-### Thursday, November 5
-- 4E03 Kritik Activity 2
+### Friday, January 22
+- 2MT3 Quiz 2
 
-### Saturday, November 7
-- 3Y03 Assignment 4
-- 3Y03 Assignment 5
+### Sunday, January 24
+- 1C03 Week 2 Discussion Post (2%)
 
-### Sunday, November 8
-- 4G06A Capstone: Development Process (1%)
-- 4HC3 Assignment 5: User Help (5%)
+### Wednesday, January 27
+- 1C03 Group/Topic Signup
 
-### Monday, November 9
-- 4A03 Gamification: Technology Public Policy (10%)
+### Friday, January 29
+- 2MT3 Quiz 3
 
-### Tuesday, November 10
-- 4E03 Assignment 7
+### Sunday, January 31
+- 1C03 Mastering Quiz 1 (4%)
+    - Week 3 Discussion (2%)
 
-### Friday, November 13
-- **3Y03 MIDTERM 2/2 (15%)**
+### Monday, February 1
+- Capstone - Presentation Videos Rev 0 (10%)
 
-### Sunday, November 15
-- 4HC3 Project: Implementation (12%)
+### Tuesday, February 2
+- 1C03 Assignment 1 - Radiation Budgets and Solar Geometry (5%)
 
-### Monday, November 16
-- 4A03 Gamification: Inquiry (20%)
-- 4A03 Individual Assignment 4
-- 4G06A Capstone: Demo contract & Virtual Proof of Concept (5%)
-    - Onwards through to Thursday, November 26
+### Friday, February 5
+- 2MT3 Quiz 4
 
-### Tuesday, November 17
-- 4E03 Assignment 8
+### Sunday, February 7th
+- 1C03 Week 4 Discussion (2%)
 
-### Saturday, November 21
-- 3Y03 Assignment 6
+### Tuesday, February 9
+- 1C03 Assignment 2 - Acidification (5%)
 
-### Sunday, November 22
-- 4HC3 Assignment 6
+### Wednesday, February 10
+- 1C03 Group Project - Contract
 
-### Tuesday, November 24
-- 4E03 Assignment 9
+### Friday, February 12
+- 2MT3 Quiz 5
 
-### Monday, November 30
-- 4A03 Gamification: Solution Proposal (15%)
+### Sunday, February 14
+- Capstone - V & V (8%)
 
-### Tuesday, Decenber 1
-- 4E03 Assignment 10
+### Sunday, February 21
+- 1C03 Week 5 Discussion (2%)
+- Capstone - Student Self-Reflection 2 (1%)
 
-### Saturday, December 5
-- 3Y03 Assignment 7
+### Tuesday, February 23
+- 1C93 Assignment 3 - Water Balance (5%)
 
-### Sunday, December 6
-- 4HC3 Project
-    - Test Participation Report (4%)
-    - Usability Test Results Report (4%)
+### Friday, February 26
+- 2MT3 Quiz 6
 
-### Tuesday, December 8
-- 4E03 Assignment 11
+### Sunday, February 28
+- Capstone - Final Revision
+    - Goals & Requirements (5%)
+    - Hazard Analysis (1%)
+- 1C03 Mastering Quiz 2 (4%)
+    - Week 6 Discussion (2%)
 
-### Sunday, December 20
-- 4G06A Capstone
-    - Group Performance Review/Audit (1%)
-    - Hazard Analysis Review (1%)
+### Wednesday, March 3
+- **2MT3 MIDTERM**
+- 1C03 Infographic Assignment (10%)
 
-# Old Deadlines
-- September 13, 4HC3 Practice 1: UI Critique (unmarked)
-- September 18: 4AA4 Lab Safety Quiz
-- September 19: 3Y03 Assignment 1
-- September 20: 4HC3 Assignment 1: UI Critique (5%)
-- September 21: 4A03 Gamification: Team Formation, Declaration of Incorporation and Documentation (5%)
-- September 22: 4E03 Assignment 1
-- September 25: 4HC3 Practice 1: JS Interactivity (unmarked)
-- September 27: 4HC3 Project: Proposal Document (3%)
-- September 28: 4A03 Gamification: Field Analysis
-- October 2: **3Y03 MIDTERM 1/2 (15%)**
-- October 3: 3Y03 Assignment 2
-- October 4: 4G06A Capstone
-    - Project Goals Document (2%)
-    - Group Choice, Project Choice, and Justification (unmarked)
-    - 4HC3 Assignment 2: Web UI Design (5%)
-- October 5: 4A03 Individual Assignment 1
-- October 9: 4HC3 Project
-    - Design Document (4%)
-    - Proposal Feedback (1%)
-    - 4A03 Gamification: Risk Assessment & Central Question (10%)
-- October 19: 4HC3 Assignment 3: Component-based UI w/ React (5%)
-- October 20:  **4AA4 MIDTERM (30%)**
-    - 4E03 Assignment 4
-- October 22: 4E03 Kritik Activity 1
-- October 24: 3Y03 Assignment 3
-- October 25: 4HC3 Project: Usability Test Plan (4%)
-- October 26: 4A03 Individual Assignment 2
-    - 4A03 Gamification: Ethical Analysis (10%)
-- October 27: 4E03 Kritik Feedback
-- October 28: **4E03 MIDTERM (25%)**
-- October 29: 4E03 Kritik Feedback on Feedback
-    - I can't make this shit up we're paying for this service and being marked on it
-- October 30: 4E03 Assignment 5
-- November 1: 4G06A Capstone: Draft System Requirements (5%)
-    - 4HC3 Assignment 4: React SPA w/ Websockets (5%)
+### Sunday, March 7
+- 1C03 Week 7 Discussion (2%)
+
+### Wednesday, March 10
+- Capstone - Final Revision Design (5%)
+
+### Friday, March 12
+- 2MT3 Quiz 7
+
+### Sunday, March 14
+- 1C03 Mastering Quiz 3 (4%)
+    - Week 8 Discussion (2%)
+
+### Monday, March 15
+- Capstone - Final Revision Presentation (10%)
+
+### Wednesday, March 17
+- 1C03 Group Project - Draft of Slides
+
+### Friday, March 19
+- 2MT3 Quiz 8
+
+### Sunday, March 21
+- 1C03 Week 9 Discussion (2%)
+
+### Friday, March 26
+- 2MT3 Quiz 9
+
+### Sunday, March 28
+- 1C03 Mastering Quiz 4 (4%)
+    - Week 10 Discussion (2%)
+
+### Tuesday, March 30
+- 1C03 Assignment 4 - Neighborhood Tree (5%)
+
+### Thursday, April 1
+- Capstone - Final Revision V & V (8%)
+    - Group Performance Review/Audits (1%)
+    - Student Self-Reflection 3 (1%)
+
+### Sunday, April 4
+- 1C03 Week 11 Discussion (2%)
+
+### Wednesday, April 7
+- 1C03 Group Project - Final Presentation (14%)
+
+### Thursday, April 8
+- **Capstone Expo Deliverables (15%)**
+
+### Friday, April 9
+- 2MT3 Quiz 10
+
+### Sunday, April 11
+- 1C03 Week 12 Discussion (2%)
+
+### Tuesday, April 13
+- 1C03 Assignment 5 - Local Soil Analysis (5%)
+
+### Wednesday, April 14
+- **2MT3 FINAL EXAM**
+- **END OF CLASSES**
+
+### Friday, April 23
+- **Capstone Final Presentations (15%)**
+
+### Monday, April 26
+- 1C03 End of Term Problem Set (15%)
+
+### Friday, April 30
+- 1C03 Mastering Quiz 5 (4%)
