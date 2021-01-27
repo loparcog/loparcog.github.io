@@ -40,30 +40,19 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Wednesday, January 20
-- Capstone - Draft System Design (5%)
-
-### Friday, January 22
-- 2MT3 Quiz 2
-
-### Sunday, January 24
-- 1C03 Week 2 Discussion Post (2%)
-
-### Wednesday, January 27
-- 1C03 Group/Topic Signup
-
-### Friday, January 29
-- 2MT3 Quiz 3
-
 ### Sunday, January 31
 - 1C03 Mastering Quiz 1 (4%)
     - Week 3 Discussion (2%)
 
 ### Monday, February 1
 - Capstone - Presentation Videos Rev 0 (10%)
+- 1C03 Assignment 1 - Wireshark
 
 ### Tuesday, February 2
 - 1C03 Assignment 1 - Radiation Budgets and Solar Geometry (5%)
+
+## Thursday, February 4
+- 4X03 Assignment 1
 
 ### Friday, February 5
 - 2MT3 Quiz 4
