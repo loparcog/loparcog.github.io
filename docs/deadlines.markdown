@@ -46,12 +46,13 @@ title: Deadlines
 
 ### Monday, February 1
 - Capstone - Presentation Videos Rev 0 (10%)
-- 1C03 Assignment 1 - Wireshark
+- 4C03 Assignment 1 - Wireshark
 
 ### Tuesday, February 2
 - 1C03 Assignment 1 - Radiation Budgets and Solar Geometry (5%)
 
 ## Thursday, February 4
+- **4J03 MIDTERM 1 @ 3:00-4:30**
 - 4X03 Assignment 1
 
 ### Friday, February 5
@@ -98,6 +99,9 @@ title: Deadlines
 
 ### Wednesday, March 10
 - Capstone - Final Revision Design (5%)
+
+### Thursday, March 11
+- **4J03 MIDTERM 2 @ 3:00-4:30**
 
 ### Friday, March 12
 - 2MT3 Quiz 7
