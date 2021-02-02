@@ -63,6 +63,7 @@ title: Deadlines
 
 ### Tuesday, February 9
 - 1C03 Assignment 2 - Acidification (5%)
+- 4C03 Quiz 2
 
 ### Wednesday, February 10
 - 1C03 Group Project - Contract
@@ -72,6 +73,7 @@ title: Deadlines
 
 ### Sunday, February 14
 - Capstone - V & V (8%)
+- 4C03 Assignment 2 - Socket Programming
 
 ### Sunday, February 21
 - 1C03 Week 5 Discussion (2%)
