@@ -40,17 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Sunday, January 31
-- 1C03 Mastering Quiz 1 (4%)
-    - Week 3 Discussion (2%)
-
-### Monday, February 1
-- Capstone - Presentation Videos Rev 0 (10%)
-- 4C03 Assignment 1 - Wireshark
-
-### Tuesday, February 2
-- 1C03 Assignment 1 - Radiation Budgets and Solar Geometry (5%)
-
 ## Thursday, February 4
 - **4J03 MIDTERM 1 @ 3:00-4:30**
 - 4X03 Assignment 1
