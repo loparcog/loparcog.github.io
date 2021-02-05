@@ -40,19 +40,17 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-## Thursday, February 4
-- **4J03 MIDTERM 1 @ 3:00-4:30**
+### Saturday, February 6
 - 4X03 Assignment 1
 
-### Friday, February 5
-- 2MT3 Quiz 4
-
-### Sunday, February 7th
+### Sunday, February 7
 - 1C03 Week 4 Discussion (2%)
+
+### Sunday, February 8
+- 4C03 Quiz 2
 
 ### Tuesday, February 9
 - 1C03 Assignment 2 - Acidification (5%)
-- 4C03 Quiz 2
 
 ### Wednesday, February 10
 - 1C03 Group Project - Contract
