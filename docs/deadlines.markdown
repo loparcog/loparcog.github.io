@@ -40,13 +40,7 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Saturday, February 6
-- 4X03 Assignment 1
-
-### Sunday, February 7
-- 1C03 Week 4 Discussion (2%)
-
-### Sunday, February 8
+### Monday, February 8
 - 4C03 Quiz 2
 
 ### Tuesday, February 9
@@ -67,7 +61,7 @@ title: Deadlines
 - Capstone - Student Self-Reflection 2 (1%)
 
 ### Tuesday, February 23
-- 1C93 Assignment 3 - Water Balance (5%)
+- 1C03 Assignment 3 - Water Balance (5%)
 
 ### Friday, February 26
 - 2MT3 Quiz 6
