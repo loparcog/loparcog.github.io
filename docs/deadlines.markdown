@@ -40,18 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Monday, February 8
-- 4C03 Quiz 2
-
-### Tuesday, February 9
-- 1C03 Assignment 2 - Acidification (5%)
-
-### Wednesday, February 10
-- 1C03 Group Project - Contract
-
-### Friday, February 12
-- 2MT3 Quiz 5
-
 ### Sunday, February 14
 - Capstone - V & V (8%)
 - 4C03 Assignment 2 - Socket Programming
