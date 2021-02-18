@@ -40,11 +40,8 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Sunday, February 14
-- Capstone - V & V (8%)
-- 4C03 Assignment 2 - Socket Programming
-
 ### Sunday, February 21
+- 4X03 Assignment 2 (10%)
 - 1C03 Week 5 Discussion (2%)
 - Capstone - Student Self-Reflection 2 (1%)
 
@@ -52,6 +49,7 @@ title: Deadlines
 - 1C03 Assignment 3 - Water Balance (5%)
 
 ### Friday, February 26
+- **4X03 MIDTERM IN-CLASS**
 - 2MT3 Quiz 6
 
 ### Sunday, February 28
