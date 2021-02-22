@@ -41,12 +41,12 @@ title: Deadlines
 </script>
 
 ### Sunday, February 21
-- 4X03 Assignment 2 (10%)
 - 1C03 Week 5 Discussion (2%)
 - Capstone - Student Self-Reflection 2 (1%)
 
 ### Tuesday, February 23
 - 1C03 Assignment 3 - Water Balance (5%)
+- 4X03 Assignment 2 (10%)
 
 ### Friday, February 26
 - **4X03 MIDTERM IN-CLASS**
