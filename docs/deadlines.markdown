@@ -40,17 +40,8 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Sunday, February 21
-- 1C03 Week 5 Discussion (2%)
-- Capstone - Student Self-Reflection 2 (1%)
-
-### Tuesday, February 23
-- 1C03 Assignment 3 - Water Balance (5%)
-- 4X03 Assignment 2 (10%)
-
 ### Friday, February 26
 - **4X03 MIDTERM IN-CLASS**
-- 2MT3 Quiz 6
 
 ### Sunday, February 28
 - Capstone - Final Revision
@@ -58,6 +49,9 @@ title: Deadlines
     - Hazard Analysis (1%)
 - 1C03 Mastering Quiz 2 (4%)
     - Week 6 Discussion (2%)
+
+### Monday, March 1
+- 1C03 Assignment 3: TCP Wireshark Tracing
 
 ### Wednesday, March 3
 - **2MT3 MIDTERM**
@@ -130,9 +124,11 @@ title: Deadlines
 
 ### Friday, April 23
 - **Capstone Final Presentations (15%)**
+- **4C03 EXAM @ 4:00PM (2hr)**
 
 ### Monday, April 26
 - 1C03 End of Term Problem Set (15%)
+- **4X03 EXAM @ 7:30PM (2hr)**
 
 ### Friday, April 30
 - 1C03 Mastering Quiz 5 (4%)
