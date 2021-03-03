@@ -40,19 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Friday, February 26
-- **4X03 MIDTERM IN-CLASS**
-
-### Sunday, February 28
-- Capstone - Final Revision
-    - Goals & Requirements (5%)
-    - Hazard Analysis (1%)
-- 1C03 Mastering Quiz 2 (4%)
-    - Week 6 Discussion (2%)
-
-### Monday, March 1
-- 1C03 Assignment 3: TCP Wireshark Tracing
-
 ### Wednesday, March 3
 - **2MT3 MIDTERM**
 - 1C03 Infographic Assignment (10%)
