@@ -40,12 +40,11 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Wednesday, March 3
-- **2MT3 MIDTERM**
-- 1C03 Infographic Assignment (10%)
-
 ### Sunday, March 7
 - 1C03 Week 7 Discussion (2%)
+
+### Tuesday, March 9
+- 4C03 Quiz 3
 
 ### Wednesday, March 10
 - Capstone - Final Revision Design (5%)
