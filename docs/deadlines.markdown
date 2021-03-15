@@ -40,23 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Wednesday, March 10
-- Capstone - Final Revision Design (5%)
-
-### Thursday, March 11
-- **4J03 MIDTERM 2 @ 3:00-4:30**
-
-### Friday, March 12
-- 2MT3 Quiz 7
-
-### Sunday, March 14
-- 1C03 Mastering Quiz 3 (4%)
-    - Week 8 Discussion (2%)
-
-### Monday, March 15
-- Capstone - Final Revision Presentation (10%)
-- 4C03 Assignment 3
-
 ### Wednesday, March 17
 - 1C03 Group Project - Draft of Slides
 
@@ -66,6 +49,9 @@ title: Deadlines
 
 ### Sunday, March 21
 - 1C03 Week 9 Discussion (2%)
+
+### Monday, March 22
+- 4C03 Quiz 4
 
 ### Friday, March 26
 - 2MT3 Quiz 9
