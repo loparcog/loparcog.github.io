@@ -60,6 +60,9 @@ title: Deadlines
 - 1C03 Mastering Quiz 4 (4%)
     - Week 10 Discussion (2%)
 
+### Monday, March 29
+- 4C03 Assignment 5: TCP Attacks
+
 ### Tuesday, March 30
 - 1C03 Assignment 4 - Neighborhood Tree (5%)
 
