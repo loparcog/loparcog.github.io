@@ -40,16 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Wednesday, March 17
-- 1C03 Group Project - Draft of Slides
-
-### Friday, March 19
-- 2MT3 Quiz 8
-- 4X03 Assignment 3
-
-### Sunday, March 21
-- 1C03 Week 9 Discussion (2%)
-
 ### Monday, March 22
 - 4C03 Quiz 4
 
