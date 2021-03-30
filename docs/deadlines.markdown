@@ -59,6 +59,9 @@ title: Deadlines
 ### Sunday, April 4
 - 1C03 Week 11 Discussion (2%)
 
+### Monday, April 5
+- 4C03 Quiz 5
+
 ### Wednesday, April 7
 - 1C03 Group Project - Final Presentation (14%)
 
@@ -71,12 +74,18 @@ title: Deadlines
 ### Sunday, April 11
 - 1C03 Week 12 Discussion (2%)
 
+### Monday, April 12
+- 4X03 Assignment 4
+
 ### Tuesday, April 13
 - 1C03 Assignment 5 - Local Soil Analysis (5%)
 
 ### Wednesday, April 14
 - **2MT3 FINAL EXAM**
 - **END OF CLASSES**
+
+### Thursday, April 15
+- **4J03 EXAM @ 2:30PM (4hr)**
 
 ### Friday, April 23
 - **Capstone Final Presentations (15%)**
