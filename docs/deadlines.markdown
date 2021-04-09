@@ -40,30 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Thursday, April 1
-- **McMaster AI Society Project Expo**
-- Capstone - Final Revision V & V (8%)
-    - Group Performance Review/Audits (1%)
-    - Student Self-Reflection 3 (1%)
-
-### Sunday, April 4
-- 1C03 Week 11 Discussion (2%)
-
-### Monday, April 5
-- 4C03 Quiz 5
-
-### Wednesday, April 7
-- 1C03 Group Project - Final Presentation (14%)
-
-### Thursday, April 8
-- **Capstone Expo Deliverables (15%)**
-
-### Friday, April 9
-- 2MT3 Quiz 10
-
-### Sunday, April 11
-- 1C03 Week 12 Discussion (2%)
-
 ### Monday, April 12
 - 4X03 Assignment 4
 
@@ -73,6 +49,7 @@ title: Deadlines
 ### Wednesday, April 14
 - **2MT3 FINAL EXAM**
 - **END OF CLASSES**
+- 4C03 Assignment 6
 
 ### Thursday, April 15
 - **4J03 EXAM @ 2:30PM (4hr)**
