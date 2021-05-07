@@ -40,27 +40,4 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Monday, April 12
-- 4X03 Assignment 4
-
-### Tuesday, April 13
-- 1C03 Assignment 5 - Local Soil Analysis (5%)
-
-### Wednesday, April 14
-- **2MT3 FINAL EXAM**
-- **END OF CLASSES**
-- 4C03 Assignment 6
-
-### Thursday, April 15
-- **4J03 EXAM @ 2:30PM (4hr)**
-
-### Friday, April 23
-- **Capstone Final Presentations (15%)**
-- **4C03 EXAM @ 4:00PM (2hr)**
-
-### Monday, April 26
-- 1C03 End of Term Problem Set (15%)
-- **4X03 EXAM @ 7:30PM (2hr)**
-
-### Friday, April 30
-- 1C03 Mastering Quiz 5 (4%)
+### DONE!
