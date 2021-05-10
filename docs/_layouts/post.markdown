@@ -18,7 +18,7 @@ layout: default
     &nbsp;
 
     {% for category in page.categories %}
-    <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+    <a href="{{site.baseurl}}/school/#{{category|slugize}}">{{category}}</a>
     {% unless forloop.last %},{% endunless %}
     {% endfor %} </p>
 </header>
