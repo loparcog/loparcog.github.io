@@ -1,3 +1,6 @@
 # Ignore any VS files
 .vs
 .vscode
+
+# Ignore macOS files
+.DS_Store
