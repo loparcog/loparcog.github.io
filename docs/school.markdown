@@ -10,7 +10,7 @@ title: School Notes
 <h3>All Classes</h3>
 {% for group in groups %}
   {% assign gname = group.name | remove: '["' | remove: '"]' %}
-  <a href="{{site.baseurl}}/school/#{{gname|slugize}}">{{gname}}</a>
+  <a href="{{site.baseurl}}/notes/#{{gname|slugize}}">{{gname}}</a>
   <br/>
 {% endfor %} 
 </div>
