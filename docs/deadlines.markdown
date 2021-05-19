@@ -40,4 +40,77 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### DONE!
+### Friday, May 21
+- Statistics for Business: Quiz 1 (1%)
+
+### Sunday, May 23
+- Theory of Beauty: Reflection Piece (10%)
+
+### Wednesday, May 26
+- Business Communications: Quiz 1 (4%)
+
+### Friday, May 28
+- Statistics for Business: Quiz 2 (1%)
+
+### Wednesday, June 2
+- Business Communications: Small Group Persuasive Writing (15%)
+
+### Friday, June 4
+- Statistics for Business: Assignment 1 (5%)
+    - Quiz 3 (1%)
+
+### Wednesday, June 9
+- Business Communications: Quiz 2 (4%)
+
+### Friday, June 11
+- Statistics for Business: Quiz 4 & 5 (2%)
+
+### Sunday, June 13
+- Theory of Beauty: Reading Reflection 1 (10%)
+
+### Friday, June 18
+- Statistics for Business: Assignment 2 (5%)
+
+### Wednesday, June 23
+- Business Communications: Individual Business Report (20%)
+
+### Friday, June 25
+- **Statistics for Business MIDTERM (30%)**
+
+### Sunday, June 27
+- Theory of Beauty: Written Assignment (15%)
+
+### Wednesday, July 7
+- Business Communications: Group Presentations Begin
+    - Quiz 3 (4%)
+
+### Friday, July 9
+- Statistics for Business: Quiz 6 (1%)
+
+### Friday, July 16
+- Statistics for Business: Quiz 7 (1%)
+
+### Sunday, July 25
+- Theory of Beauty: Reading Reflection 2 (15%)
+
+### Friday, July 30
+- Statistics for Business: Quiz 8 (1%)
+
+### Friday, August 6
+- **Statistics for Business: Major Assignment (20%)**
+    - Quiz 9 & 10 (2%)
+
+### Sunday, August 8
+- Theory of Beauty: Essay (20%)
+
+### Tuesday, August 17
+- Theory of Beauty: Final Reflection (5%)
+
+### Friday, August 18
+- **Business Communications: FINAL EXAM (30%)**
+
+### Sunday, August 20
+- **Statistics for Business: FINAL EXAM (30%)**
+
+### Sunday, August 22
+- **Theory of Beauty FINAL EXAM (25%)**
