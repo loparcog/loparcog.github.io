@@ -40,12 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Friday, May 21
-- Statistics for Business: Quiz 1 (1%)
-
-### Sunday, May 23
-- Theory of Beauty: Reflection Piece (10%)
-
 ### Wednesday, May 26
 - Business Communications: Quiz 1 (4%)
 
@@ -114,3 +108,7 @@ title: Deadlines
 
 ### Sunday, August 22
 - **Theory of Beauty FINAL EXAM (25%)**
+
+## Past Assignments
+- Friday, May 21: Statistics for Business: Quiz 1 (1%)
+- Sunday, May 23: Theory of Beauty: Reflection Piece (10%)
