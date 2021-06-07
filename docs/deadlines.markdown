@@ -40,10 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Friday, June 4
-- Statistics for Business: Assignment 1 (5%)
-    - Quiz 3 (1%)
-
 ### Wednesday, June 9
 - Business Communications: Quiz 2 (4%)
 
@@ -106,3 +102,5 @@ title: Deadlines
 - Wednesday, May 26: Business Communications: Quiz 1 (4%)
 - Friday, May 28: Statistics for Business: Quiz 2 (1%)
 - Wednesday, June 2: Business Communications: Small Group Persuasive Writing (15%)
+- Friday, June 4: Statistics for Business: Assignment 1 (5%)
+    - Quiz 3 (1%)
