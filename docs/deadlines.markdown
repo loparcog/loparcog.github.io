@@ -40,22 +40,6 @@ title: Deadlines
     document.getElementById("hdr").innerHTML = `Today is ${day}, ${mon} ${n}`;
 </script>
 
-### Friday, June 18
-- Statistics for Business: Assignment 2 (5%)
-
-### Wednesday, June 23
-- Business Communications: Individual Business Report (20%)
-
-### Friday, June 25
-- **Statistics for Business MIDTERM (30%)**
-
-### Sunday, June 27
-- Theory of Beauty: Written Assignment (15%)
-
-### Wednesday, July 7
-- Business Communications: Group Presentations Begin
-    - Quiz 3 (4%)
-
 ### Friday, July 9
 - Statistics for Business: Quiz 6 (1%)
 
@@ -98,3 +82,9 @@ title: Deadlines
 - Wednesday, June 9: Business Communications: Quiz 2 (4%)
 - Friday, June 11: Statistics for Business: Quiz 4 & 5 (2%)
 - Sunday, June 13: Theory of Beauty: Reading Reflection 1 (10%)
+- Friday, June 18: Statistics for Business: Assignment 2 (5%)
+- Wednesday, June 23: Business Communications: Individual Business Report (20%)
+- Friday, June 25: **Statistics for Business MIDTERM (30%)**
+- Sunday, June 27: Theory of Beauty: Written Assignment (15%)
+- Wednesday, July 7: Business Communications: Group Presentations Begin
+    - Quiz 3 (4%)
