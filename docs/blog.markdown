@@ -15,9 +15,9 @@ title: Blog
         <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
-            {{ post.description }}
             </a>
         </h3>
+        {{ post.description }}
         {%- if site.show_excerpts -%}
             {{ post.excerpt }}
         {%- endif -%}
