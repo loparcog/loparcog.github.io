@@ -4,3 +4,6 @@
 
 # Ignore macOS files
 .DS_Store
+
+# Ignore static sites
+site/
