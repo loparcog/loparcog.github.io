@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Pelican" />
+    <title>Mostly Complete Dogument</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+    <link rel="stylesheet" type="text/css" href="https://loparcog.github.io/theme/css/main.css" />
+    <link rel="stylesheet" href="https://loparcog.github.io/theme/css/stork.css">
+    <link rel="stylesheet" media="screen and (prefers-color-scheme: dark)"
+        href="https://loparcog.github.io/theme/css/stork-dark.css">
+    <link
+        href="https://loparcog.github.io/feeds/all.atom.xml"
+        type="application/atom+xml" rel="alternate" title="giacomo Atom Feed" />
+<meta name="description" content="New dog coming in, gathered a boatload of information for preparation and reference. Future edit, her name is Lola and she is a dream." />
+    <script>
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia(
+                '(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    </script>
+</head>
+
+<body class="min-h-screen flex flex-col max-w-7xl lg:max-w-none text-zinc-800 bg-neutral-100 
+    dark:bg-neutral-900 dark:text-zinc-300 container mx-auto justify-center md:px-3 ">
+    <nav class="sm:flex sm:justify-between xl:ml-32 pl-4 items-center">
+        <div class="flex pt-4">
+            <h1 class="font-semibold text-2xl"><a href="https://loparcog.github.io/">giacomo</a></h1>
+            <button id="theme-toggle" type="button"
+                class="text-zinc-700 dark:text-zinc-400 rounded-full focus:outline-none text-sm ml-2 p-1">
+                <svg id="theme-toggle-dark-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                </svg>
+                <svg id="theme-toggle-light-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                        fill-rule="evenodd" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+        <ul class="flex flex-wrap lg:mr-24 md:pt-0">
+            <li class="mr-4 pt-6"><a  href="https://loparcog.github.io/archives.html">Archive</a></li>
+            <li class="mr-4 pt-6"><a                     href="https://loparcog.github.io/categories.html">Categories</a></li>
+            <li class="mr-4 pt-6"><a  href="https://loparcog.github.io/tags.html">Tags</a></li>
+            <li class="mr-4 pt-6"><a  href="https://loparcog.github.io/search.html">Search</a></li>
+        </ul>
+    </nav>
+    <div class="flex-grow md:max-w-screen-md md:mx-auto md:w-3/4 px-4">
+        <nav class="text-zinc-800 dark:text-zinc-300 mt-12 pb-2 md:mt-16" aria-label="Breadcrumb">
+            <ul class="p-0 inline-flex items-center">
+                <li class="flex items-center">
+                    <a href="https://loparcog.github.io/" class="text-zinc-800 dark:text-zinc-300 inline-flex items-center">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
+                            </path>
+                        </svg>
+                        Home
+                    </a>
+                    <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512">
+                        <path
+                            d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
+                    </svg>
+                </li>
+                <li class="flex items-center">
+                    <a href="https://loparcog.github.io/categories.html">Categories</a>
+                    <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512">
+                        <path
+                            d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
+                    </svg>
+                </li>
+                <li class="flex items-center">
+                    <a href="https://loparcog.github.io/category/personal.html">Personal</a>
+                </li>
+                <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                        d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
+                </svg>
+            </ul>
+        </nav>
+
+<main>
+  <header>
+    <h1 class="font-semibold text-3xl my-2">Mostly Complete Dogument</h1>
+    <footer class="flex text-sm text-zinc-800 dark:text-zinc-400">
+      <div class="flex text-xs text-zinc-800 dark:text-zinc-400">
+        <time>May 21, 2021</time>
+        <div>
+          <span>&nbsp;·&nbsp;24 min read</span>
+        </div>
+        <div>
+          <span>&nbsp;·&nbsp;Giacomo Loparco</span>
+        </div>
+      </div>
+    </footer>
+  </header>
+  <details class="flex flex-col my-6 p-4 bg-zinc-200 dark:bg-zinc-800 rounded-lg">
+    <summary class="text-lg font-bold">Table of contents</summary>
+    <div class="mx-4 px-4 underline">
+      <div id="toc"><ul><li><a class="toc-href" href="#socialization" title="Socialization">Socialization</a></li><li><a class="toc-href" href="#basics-of-training" title="Basics of Training">Basics of Training</a></li><li><a class="toc-href" href="#house-training" title="House Training">House Training</a></li><li><a class="toc-href" href="#crate-training_1" title="Crate Training">Crate Training</a><ul><li><a class="toc-href" href="#biting-teething-and-chewing" title="Biting, Teething, and Chewing">Biting, Teething, and Chewing</a></li><li><a class="toc-href" href="#managing-behaviour" title="Managing Behaviour">Managing Behaviour</a></li><li><a class="toc-href" href="#supplies" title="Supplies">Supplies</a></li><li><a class="toc-href" href="#references" title="References">References</a></li></ul></li></ul></div>
+    </div>
+  </details>
+  <div class="max-w-7xl container mx-auto my-8 text-zinc-800 dark:text-zinc-300  
+              prose lg:max-w-none prose-headings:text-zinc-800 prose-headings:dark:text-zinc-300 
+              prose-h1:text-3xl lg:prose-h1:text-3xl prose-headings:font-semibold 
+              prose-pre:bg-zinc-200 prose-pre:text-zinc-800
+              dark:prose-pre:bg-zinc-800 dark:prose-pre:text-zinc-200
+              prose-blockquote:text-zinc-800
+              dark:prose-blockquote:text-zinc-200
+              prose-a:text-gray-500
+              dark:prose-a:text-gray-400
+              dark:prose-strong:text-zinc-200 
+              dark:prose-code:text-zinc-200
+              dark:prose-code:bg-zinc-800
+              prose-code:bg-zinc-200
+              prose-code:font-light
+              prose-img:rounded-md
+              ">
+    <p>This document holds any dog/puppy research I have found and hope to have on hand. All of this is a compilation of different available internet resources and other in-person advice, which should all be covered in the references section. <strong>Note that this is not an end-all, just what I thought was useful to check out.</strong></p>
+<h2 id="socialization">Socialization</h2>
+<p><em>Getting the puppy familiar with people, other animals, and how to act around them</em></p>
+<p>Socialization Basics
+- Time for puppy to learn about the world and others in it
+- Most sensitive time (most important time for socialization) around <strong>3 weeks to 3-4 months (12-16 weeks)</strong>
+- Build positive associations with the environment and others around the puppy, setting them up to be calm, curious, and confident dogs
+- "Behavioral issues, not infectious diseases, are the number one cause of death for dogs under three years of age."</p>
+<p>What/How to Socialize
+- Checklist available <a href="https://disruptivedog.com/wp-content/uploads/2017/08/DisruptiveDog_ThePuppySocializationChecklist.pdf">here</a> for general things you should try to expose the puppy to
+    - Can try to rate experiences depending on how the puppy reacts
+- <strong>Always try to facilitate a positive experience for the pup</strong>
+    - Don't force it to "confront fears", allow them to retreat if they don't feel safe
+    - Don't be too excited yourself, try to show you are calm and the puppy can learn off your reaction
+- <strong>Give treats freely to create positive associations</strong>
+    - Treats help to refocus the puppy, stopping it from being fixated on its fear
+    - If pup is too nervous to take a treat, back off and slow down
+- <strong>Help the puppy to generalize</strong>
+    - Provide diverse experiences with diverse settings, try to get out of the house and have new experiences there to make sure they are still uncomfortable outside of their own space
+- <strong>Go slowly!</strong>
+    - If they get wildly excited/scared about something, slow down the introduction, let the puppy lead and go further when they are more relaxed
+    - This would apply to brushing (let them get familiar with the brush before actually brushing them)</p>
+<p>How to Rate Puppy Reactions
+- Can try to use this simple 1-5 rating scale from <a href="https://drsophiayin.com/">Dr. Sophia Yin</a>. 1-3 means you still need work, 4-5 means it is already great.
+1. <strong>Overarousal or Trying to Attack</strong>: Growling, nipping, barking, struggling (for handling) and/or lunging
+2. <strong>Avoidance</strong>: Struggling, hiding or trying to get away, won't approach or hesitant
+3. <strong>Freezing</strong>: Holding still and not eating, not exploratory, moving slowly or acting sleepy when they shouldn't be tired
+4. <strong>Calm, Relaxed, Focused on Food</strong>: Explores the object/environment, playful
+5. <strong>Calm, Relaxed, even Without Food</strong>: Same as previous, just less reliance on treats</p>
+<p>When to Meet Other Dogs?
+- Depends on the vaccine schedule of your dog and other dogs
+    - For our sake, semi-vaccinated (<em>SV</em>) is 12 weeks, and fully-vaccinated (<em>FV</em>) is 16 weeks
+- <strong>No meeting</strong> when your puppy is &lt;12 weeks old
+- <strong>Some meeting</strong> when your puppy is SV (12-16 weeks) <strong>ONLY IF</strong> the other dog is fully vaccinated and known to be currently healthy
+- <strong>Any meeting</strong> when your puppy is FV (16 weeks)</p>
+<p>How to Meet Other Dogs?
+- Avoid on-leash greetings
+    - If not possible (obviously a puppy should be kept on leash), try to keep leash as loose as possible
+- Try to avoid allowing every possible greeting
+    - Puppy can get too excited when seeing any other dog, could come off as aggressive to the other dog
+- Try to meet in a neutral space
+    - One not "owned" by either dog, usually somewhere outside that is not either dog's play yard and/or poop spot
+- Avoid dog parks
+    - Loads of variables from other dogs, could be overwhelming and could need to put more trust than you want to in the other dogs, best to find friends/family/neighbours to interact with whose dogs you know are safe and good with others</p>
+<p>How to get a Puppy and Old Dog Together?
+- Let the old dog lead the interactions
+    - Allow the old dog to choose when to interact with the puppy, your main goal here would just be to have the puppy <em>around</em> them when they're up so they have the choice to come over and check them out
+- Protect the old dog
+    - Puppies are obviously bundles of energy, and would usually be way too much for the old dog
+    - Make sure the old dog has a chance to easily get away if they are overwhelmed, and try to keep the puppy from getting too playful or overexcited
+- Follow the dog meeting advice above</p>
+<h2 id="basics-of-training">Basics of Training</h2>
+<p><em>Overarching rules of any puppy training</em></p>
+<p>What to Expect
+- There's a <a href="https://behaveatlanta.com/handoutsnstuff/dog-developmental-stages-infographic">great infographic</a> helping to describe a puppy's different stages of development
+- Try to keep things realistic and relative
+    - <strong>Be patient</strong>, don't expect a wildly quick training phase
+    - <strong>Don't compare</strong>, many dogs take their own time to learn and become accustomed to different things
+        - Take this with a grain of salt obviously but don't go nuts if you don't match up, everyone's puppy experience is different</p>
+<p>Methods to Train
+- Focus on <a href="https://m.iaabc.org/about/lima/"><em>least intrusive, minimally aversive</em> (LIMA)</a>
+- Will essentially be a basis of rewards and punishments, with a focus on positive reinforcement and negative punishment
+    - <strong>Positive reinforcement</strong> involves giving a reward directly after a desirable behaviour/action, increasing the likelihood of that behaviour in the future
+    - <strong>Negative punishment</strong> has something taken away from the puppy directly after an undesirable behaviour, still punishing the puppy without putting it in fight-or-flight response, or damaging the owner-puppy bond
+    - These and their opposite types are explained in full <a href="https://www.reddit.com/r/puppy101/wiki/operant">in this reddit post</a>
+- Things to avoid...
+    - Trying to make yourself the "alpha" or dominant, not good for the puppy, not good for your relationship, and overall not effective
+    - Any adverse punishment or training tools like <a href="https://www.reddit.com/r/puppy101/wiki/aversives">those listed here</a>, unless necessary
+    - Mainly anything to modify behaviour through pain, fear, discomfort, stress, or intimidation</p>
+<h2 id="house-training">House Training</h2>
+<p><em>Please, please, I beg you, don't pee on the carpet again</em></p>
+<p>Expectations
+- As with the other steps, every puppy progresses at their own pace, so patience and realistic expectations are key
+- Most puppies don't have much, <em>if any</em>, bladder control until <strong>8 weeks</strong>, where capacity and control start to build
+- Puppies cannot understand that going to the washroom in the house is not acceptable, so this needs to be trained through reinforcement and consistency</p>
+<p>How/When to Positively Reinforce
+- When your puppy pees/poops in an <strong>appropriate</strong> spot, <strong>praise freely</strong>
+    - Make a <em>personal determination</em> about how excited the praise should be. Convey pleasure but don't go overboard as to stop the puppy from making the connection between the action and the praise
+- Treats can be used for reinforcement at the start since bond may be weak, and this can be continued until the puppy is reliably house trained, randomly give treats for success after that point</p>
+<p>Schedule and Management
+- Goal to prevent accidents
+    - If an accident does occur, <strong>that's on you</strong>, you can't punish the puppy for something they don't know is bad
+- When starting, <strong>don't let &gt;30 minutes pass without a trip outside</strong>, aside from when the puppy is sleeping
+    - Can gradually increase this time between trips
+- <strong>Take the puppy out immediately after...</strong>
+    - Waking up from nap/bedtime
+    - Within 15 minutes of eating/drinking
+    - Prior to nap/bedtime
+- In general, when the puppy is sleeping, they should be able to <strong>hold it for the number of hours equal to their age in months</strong>
+    - An 8-week old will only be able to hold it 2-3 hours, meaning you will need to get up to take them out
+    - Can get out with an alarm to proactively get up, or wait until they start becoming restless
+- Can slowly progress to just going out once after 4 hours between <strong>9 to 12 weeks</strong>, when they can hopefully hold it the whole night past 12 weeks</p>
+<p>Do's and Don'ts of Potty Trips
+- <strong>Do:</strong>
+    - Take your puppy <strong>on leash</strong> to the <strong>same spot to potty every time</strong>, somewhere you can get to quickly and are willing to go out to in your PJs
+    - When there, <strong>stand still and be quiet</strong> to let the puppy focus on the need to go potty
+    - If on private property, possibly leave some of their poop to remind the puppy what the spot is for
+- <strong>Don't:</strong>
+    - <strong>Talk unnecessarily</strong> to the puppy on the way out
+    - Spend <strong>more than 5 minutes</strong> waiting for success. No success means go back in with tight supervision, then back out to <strong>try again 15 minutes later</strong>, which can be cut down to <strong>2 minutes</strong> when the puppy gets more familiar with potty training
+    - <strong>Turn on the lights</strong>, or <strong>do anything to wake up the puppy on overnight trips</strong>. Make sure praise is also very soft and gentle, and provide a treat reward, but then go straight back to bed
+    - Let your puppy go out <strong>unsupervised</strong>, it's crucial that you're there to reinforce, teach a cue, and discourage playtime or exploration
+    - <strong>Use pee pads unless needed</strong>, can really mess with puppy's idea of when it is or isn't okay to pee inside</p>
+<p>Cues/Signals
+- <strong>Word cues</strong> can be used to let the puppy know it's time to go to the washroom
+    - To train a word que, <strong>wait several days</strong> until your puppy figures out what they're doing at the potty spot
+    - Once you can predict when your puppy is about to go, <strong>start saying your cue one second before the puppy actually starts to go</strong>, and as with other word cues, only say it <strong>once</strong>
+- <strong>Potty bells</strong> can be used by the pup to let you know when it needs to go out, but barking works too and you don't need to build/buy anything which is nice
+- When the puppy needs to go, you can start looking for <strong>natural signals</strong> they give beforehand
+    1. Look for signals for <strong>your puppy</strong>, which could be <strong>going to the door/gate</strong> to get outside, or <strong>coming to you</strong> and staring
+    2. Use a vocal cue to ask if they <strong>want to go outside</strong>, and praise them as you get them on leash, to show that you respond to their signals
+    3. Gradually say this vocal cue farther from the puppy to encourage them to come to you instead of standing by the door, to help avoid scenarios where the puppy needs to go out and you are in another room and can't see them</p>
+<p>Confinement
+- Dogs naturally want to <strong>avoid soiling their personal space</strong>, which for puppies is usually only their bed or small area, which encourages them to hold it for longer
+    - Crate training is ideal for this to really cement where their personal space is, but you need to make sure you <strong>don't force the puppy to go in their crate</strong>
+    - Note that this also supports the need to get a smaller crate, as to not allow them to go to the washroom in one side of the crate and sleep in the other
+- If a puppy <em>needs</em> to be left alone for longer than they can hold it, consider a <strong>pen or closed off room</strong> with their crate in it, and expect an accident to happen in that room/area</p>
+<p>Supervision and Accidents
+- When not sleeping or crated, the puppy must be under <strong>immediate supervision</strong>, being actively watched and engaged with
+    - Can ground them by tying them down to a piece of furniture, so you don't need to follow them everywhere
+- <strong>Watch for signals</strong> that the puppy needs to go out, and be ready to get them out
+    - Have jacket, shoes, leash, poop bags, and treats ready at the door
+    - Signals can be pacing around, walking around, walking around "in a determined way" with their nose to the floor, walking towards the door/gate or coming over to you
+- Even if everything is going great with using the washroom outside, it does <strong>NOT</strong> mean that they learned to <strong>only go outside</strong>, accidents can and still will occur if they need to go and not addressed
+- <strong>Don't punish/scold the puppy for accidents</strong>, won't help anything and could actually make the puppy associate the punishment with going to the washroom near someone
+- If the puppy is <strong>in the act</strong> of havig an accident, you can try to
+    - <strong>Interrupt</strong>, making a noise or getting his attention without startling him
+    - <strong>Pick up to finish outside</strong>, but do it gently as to not startle them
+    - If an intrusion is too late or not suitable, just behave very <strong>neutrally</strong> and clean it up, no need for anger or swearing under your breath because the puppy can pick up on that
+- Clean accidents with <strong>enzymatic cleaner</strong> after soaking up as much urine as possible, to stop the puppy from going there again</p>
+<h1 id="crate-training_1">Crate Training</h1>
+<p><em>How to properly get your pup comfy in their crate</em>
+Why?
+- <strong>Initial safe space</strong> for the pup, gives them their own "domain"
+    - Can then expand this to the whole house as they are trained
+    - May not need the crate in the future after that, up to the pup
+- <strong>Less anxiety</strong> being on their own
+- Helpful in <strong>house training</strong> (den mentality)
+- <strong>NOTE:</strong> This does not work for <strong>ALL</strong> dogs, so don't try to force it</p>
+<p>How?
+- We want to teach our pup that their crate is their <strong>safe space</strong>, so they don't fear it, but rather go there on their own when needed
+- Ranges for everyone, but can get pups properly crate trained in 1 to 3 weeks
+- Whenever the pup is due for a nap, try to get them to <strong>nap in the crate</strong>, to enforce this idea
+- Can also do <strong>playtime in the crate</strong>, which would be small, low movement activities, since we want the crate to be sufficiently small
+    - The crate should be small enough that the pup can only <strong>stand, lie down, and turn around</strong>, to stop them from going to the washroom on one side and sleeping on the other
+    - Need to make crate bigger as they grow, which is where <strong>adjustable crates</strong> may be a good go-to</p>
+<p>Setting up the Crate
+- Place the crate away from...
+    - <strong>Direct sunlight</strong>
+    - <strong>Heat sources</strong>
+    - Path of any <strong>drafts</strong>
+- Line the bottom with any <strong>bedding</strong>, which could range from a <strong>dog bed</strong> to a series of <strong>bed sheets and towels</strong> (the latter is better for house training in case any accidents happen)
+- Before the puppy is <strong>EVER</strong> going into the crate, make sure they have <strong>no leash, collar, etc.</strong>, since those can snag and harm your pup</p>
+<p>First Introductions of Puppy and Crate
+- Initially, have the crate set up with the door <strong>always open</strong>, and allow the puppy to examine it, whether they go inside or just look at it, for them to get familiar with it
+    - Initially, try to set up the crate in a <strong>busy area of the house</strong> where <strong>lots of time is spent</strong> (ie. living room)
+- Place some treats near, around, and just inside the crate, and then let the puppy explore it
+    - Don't push the puppy to anything, try to supervise <strong>passively</strong>, don't be actively watching over them
+    - Replace the treats when they get the ones inside
+- After a few minutes, <strong>move away with the puppy</strong> and do something else
+- When they're not looking, put more treats close to and just inside the crate, and let them <strong>investigate again</strong>
+    - Again, if they pop their head in to eat some of the treats, toss a few more inside
+- After <strong>3-4 repetitions</strong> of this, use a <strong>favourite toy</strong> in the crate as well as more treats <strong>further in</strong>, so they're tempted to go in
+    - <strong>NEVER</strong> force them in, that's not the goal, we just want them familiar and comfortable with this crate</p>
+<p>Training the Puppy with the Crate
+- Now that they're familiar, we start rewarding them for <strong>going in the crate</strong>
+    - "High value treats" are recommended here, like <strong>cooked meats</strong>, or something other than kibble, but to each their own
+- Whenever the pup sites in the crate, <strong>give them a treat</strong> by placing it in the crate, along with any quick affirming praise
+    - <strong>Do not</strong> give the treat hand to mouth
+    - If they leave the crate, they <strong>do not get the treat</strong></p>
+<p>20-Step Crate Training Plan
+- All from <a href="https://www.labradortraininghq.com/labrador-training/how-to-crate-train-a-puppy/#What_Is_Puppy_Crate_Training">this article</a>
+- Each step should be rewarded with an <strong>affirmation and a treat</strong>, along with anything else stated
+    - May not want to treat <strong>all the time</strong>, to make sure that the puppy makes a positive affirmation with the crate rather than just looking for treats, but this can be done later on
+- Steps 1-8 (First time in a crate)
+    1. Puppy <strong>pays attention to crate</strong>, whether that be glancing at it or sniffing it
+    2. Puppy <strong>moves towards crate</strong> (can use the treat here to <strong>lure</strong> them towards the crate)
+    3. Puppy <strong>pays attention to crate entrance</strong>, glancing or getting their head in or any interaction
+    4. Puppy puts <strong>a paw</strong> into the crate
+    5. Puppy puts <strong>both front paws</strong> into the crate
+    6. Puppy gets <strong>completely inside</strong> crate
+        - Good idea to start teaching queue word from here
+    7. Puppy <strong>sits</strong> in crate
+        - From now on, <strong>always</strong> feed the treat by <strong>placing it in the crate</strong>
+        - If they leave the crate, they <strong>do not get the treat</strong>
+    8. Puppy lies down in the crate
+        - From now on, good idea to <strong>feed puppy all meals in the crate</strong>
+- Steps 9-12 (Time and door)
+    9. Puppy <strong>lies in crate for extended time</strong>
+        - Slowly increase amount of time needed for a treat from <strong>1 second to 1 minute in 5-second intervals</strong> (1s, 5s, 10s, ... 60s)
+        - Keep things unpredictable, work with different time amounts but usually work on an upward trend
+        - When released, allow them to <strong>completely come out of the crate</strong> before asking them to go back in again
+    10. <strong>Close the door</strong> and instantly open it
+    11. <strong>Increase time</strong> with crate door closed (1 second to 1 minute in 5 second intervals)
+    12. Start to <strong>latch the door</strong>
+        - Repeat 10 and 11 with a latched door
+        - Can practice this while <strong>feeding the puppy in their crate</strong>
+- Steps 13-20 (Build confidence in the crate)
+    13. Start <strong>stepping back</strong> from the crate, instantly returning
+    14. Step back from the crate and <strong>wait</strong> (same 1 second to 1 minute)
+    15. <strong>Increase steps</strong> from the crate 
+        - Repeat steps 13 and 14
+    16. Move almost <strong>out of the room</strong>, remaining just inside
+        - Repeat steps 13 and 14 
+    17. <strong>Leave</strong> the room
+        - Repeat steps 13 and 14
+    18. <strong>Extend the time</strong>, going up in 10 second intervals until 5 minutes, then 30 second intervals until half an hour and beyond
+    19. Add distractions outside of the crate
+        - Start low and them get greater excitement things, ie. start with reading and rustling paper up to vacuuming
+    20. <strong>Move the crate</strong> to diverse areas and environment
+        - Should be able to move it around the house normally, but this would be more extreme (outside, other houses, etc.)</p>
+<p>Night Time Training
+- Give plenty of <strong>exercise throughout the day</strong>, especially leading up to the hour or so before bedtime
+- Make sure they have <strong>no naps</strong> leading up to bedtime
+    - If the start falling asleep, do everything you can to keep them awake
+- Make sur they have also <strong>went to the washroom</strong> before bedtime, and avoid any <strong>food 3 hours before</strong>, and <strong>water 2 hours before</strong>
+- <strong><em>Never, ever, ever react to/reward crying when the puppy is in their crate</em></strong>
+    - This also means no scolding or punishing!
+    - You <em>will</em> need to go for bathroom breaks, so try to check the time to see if it is for attention vs for bathroom
+- Keep the pup <strong>in your bedroom</strong> initially, but start to move them out so that they don't make that their final sleeping spot
+    - Get them comfortable with sleeping elsewhere in the house</p>
+<h2 id="biting-teething-and-chewing">Biting, Teething, and Chewing</h2>
+<p><em>Puppy teeth are little knives, many little knives</em></p>
+<p>Puppy Biting
+- <strong>Normal, natural, and necessary</strong>
+    - Should not prohibit biting to start
+    - Need to let them explore, teach gentle play, and then end with only biting when initiated in play by <strong>you</strong>
+- Multiple ways to go about it, I'll go through two that I feel look useful</p>
+<p>Teaching a <em>Gentle</em> Cue
+- Done to <strong>let your pup know how and when to be gentle</strong>
+- To do this, <strong>hold a treat in your fist and hold it out to your pup</strong>
+- Let your dog mouth your hand, but wait for their mouth to pull away
+    - <strong>Don't wait for a miracle</strong>, if they're even just catching their breath, mark and reward them with the treat in your hand
+- Repeat this, and after ten or so repetitions, you should be able to capture <strong>noticeably bigger movements away from your hand</strong>
+    - They may look away, push their head back, or even move away
+- Once they are offering this behaviour reliably, <strong>add a cue</strong> such as <em>easy</em> or <em>gentle</em>, <strong>right before you expect them to offer the behaviour</strong>
+    - Practice often to help enforce this word</p>
+<p>Fading the Bite
+- As pups, <strong>dogs need to mouth to learn to moderate their strength</strong>
+    - If the pup is less than 3-4 months (12-16 weeks) old, let them mouth you, but <strong>stop all interaction</strong> when mouthing gets harder than usual
+    - Try to let the pup mouth for <strong>a minute or two</strong> while being gentle, then reward with a <strong>treat or a toy</strong> to end mouthing
+- Tolerate <strong>increasingly less pressure</strong> and <strong>end mouthing sooner</strong> until you stop rewarding it altogether my four months of age
+    - At four months, cue an <strong>incompatible behaviour</strong> like <em>gentile</em> or <em>sit</em>, if you sense your dog will start biting</p>
+<p>No Pain, No Pressure, and Off Method
+- <strong>No Pain</strong>: Use an "ouch" to let your puppy know when biting is hurting
+    - If the "ouch" is acknowledged, <strong>praise, lure them to sit, and give a treat</strong>
+    - If ignored, yelp a louder ouch and leave the room. Return after a 30-second time-out and make up by lure-rewarding your pup to sit, lie down, or come and calm down before resuming play
+    - Play in a room that is <strong>safe to leave the puppy if they don't respond to the yelp</strong>
+- <strong>No Pressure</strong>: Once the biting no longer hurts, pretend it does with less and less pressure
+    - Try to turn <strong>play biting into play mouthing</strong>
+    - <strong>NEVER</strong> allow your puppy to mouth <strong>hair, clothing, shoes, etc.</strong>, as there is no feeling, it inadvertently trains the puppy to <strong>bite harder, closer to human flesh!</strong>
+- <strong>Off!</strong>: Once the pup gives <strong>no pressure when mouthing</strong>, teach them to <strong>reduce the frequency of mouthing</strong>, and make sure they know <strong>when you ask them to stop, they must stop mouthing</strong></p>
+<p>Picking on Older Dogs
+- Taking some main points <a href="https://suzanneclothier.com/article/stop-poking-grandma-whats-fair-older-dogs-puppies/">from this great article</a>:
+    - You <strong>don't need to force confrontation</strong>
+    - Try to <strong>teach your puppy how to behave</strong> around their older counterparts
+    - Make sure your older dog has a <strong>puppy-free zone</strong> to escape to
+    - Keep interactions <strong>exploratory and happy for all parties</strong></p>
+<h2 id="managing-behaviour">Managing Behaviour</h2>
+<p><em>Not bad, but not good</em></p>
+<p>Stop Jumping On People
+- Main goal is to give the dog an <strong>acceptable and rewarding option other than jumping</strong>
+- Reward for <strong>"Four on the floor"</strong>
+    - Simplest solution, teach your dog how much <strong>fun it is to keep all paws on the floor</strong>
+    - <strong>Before</strong> your dog is jumping on guests, all feet will be on the floor, even if it is running towards the guest
+    - As your dog is <strong>running towards the guest to jump</strong>, mark and place the treat <strong>on the floor</strong>, preferably a little away from the guest so that the dog won't be able to jump immediately
+    - When the dog eats the treat and circles back, mark and reward again, tossing the treat <strong>at least 5 feet away from the guest</strong>
+    - Repeat until the dog <strong>starts anticipating the treat on the floor</strong>
+    - Can also reinforce other good choices your dog makes when new people are around (ie. sitting)
+    - If you don't have the time to manage the dog at this time, just <strong>scatter treats on the floor</strong> when a guest comes
+- Train an <strong>Alternate Behaviour</strong>
+    - Can alternatively pick a behaviour and train it really well without distractions, then with tiny and larger distractions until they are able to do it with new people around
+    - Practice doing behaviour or going to spot <strong>whenever a doorbell or knock sounds</strong>, calming down their "doorbell excitement"
+- Behave so your dog behaves
+    - Helps to ignore your dog when they are jumping, and if guests are uncomfortable with this, a leash can help
+    - <strong>Do:</strong>
+        - Start training <strong>before</strong> the dog is jumping
+        - Reward behaviours <strong>you would like</strong>
+        - <strong>Ignore jumping</strong>, or turn away from your dog when they jump
+        - When people greet your dog, <strong>have them place their hands at their level or lower</strong>
+    - <strong>Don't:</strong>
+        - Shove, hurt, or intimidate your dog
+        - Pet or give attention while jumping</p>
+<p>Resource Guarding
+- Not needed right now, but in case, <a href="https://www.patriciamcconnell.com/theotherendoftheleash/resource-guarding-dog-to-dog">here is a link describing what to do</a></p>
+<p>Adolescence
+- Also a whole bag of issues, but currently dealing with a puppy, will  circle back on this</p>
+<p>Separation Anxiety and Isolation Distress
+- Conditions where a dog becomes <strong>excessively anxious</strong> when separated from a specific person or people or left alone
+- Can be treated similarly so terms are used interchangeably
+- Important to know that <strong>it is normal for young puppies to cry, whine or panic when left alone for the first few weeks of being separated from their mother and littermates</strong>
+    - Does not mean they have permanent separation anxiety, their bran just tells them being alone is dangerous
+    - Okay to soothe puppy during this early time to build extra comfort, like putting their crate in your bedroom or staying by their crate in another room
+- During the day, can work on leaving your puppy alone in <strong>slowly increasing increments</strong>
+    - Remember to <strong>move at your puppy's speed</strong> to avoid panic
+    - Also avoid returning to your puppy while they <strong>bark or cry</strong>
+    - Delicate balance, but can <strong>reward even one second of calm silence</strong>
+- Once past the stage of panic when left alone, it's okay to let the puppy <strong>"cry it out"</strong>, avoiding giving attention for barking or crying
+- More detailed documents also in <a href="https://www.reddit.com/r/puppy101/wiki/managingbehavior">puppy reddit wiki, found here</a></p>
+<p>Settling and Calmness
+- No "off-switch" on puppies, some need to learn calmness rather than knowing it innately
+- You can <strong>shape and reward settling behaviour</strong> the same way you would any other skill
+- Often, when a puppy owner thinks their pup has too much energy, they throw <strong>more stimulation at their dog</strong>, which is <strong>problematic</strong>
+    - Most breeds can function happily with about <strong>an hour of exercise a day</strong> and a healthy dose of <strong>mental stimulation</strong> from puzzle toys, exploring, etc. <strong>as adults</strong>
+    - <strong>If you are constantly pushing your dog to physical exhaustion in order to get them to calm down, rather than training them how to be calm whether they're exhausted or not, you're simply conditioning your dog to need more and more exercise.</strong>
+        - Also risking long term damage to puppy's musculoskeletal system
+    - Puppies can only take so much activity before crossing into <strong>overstimulation, or zoomies</strong>
+        - Typical signs include <strong>reduced bite inhibition, jumping, running in circles, barking, growling, inability to listen to commands</strong> - general chaos
+        - Often mistaken as aggression
+        - Some timid puppies may freeze or shut down
+    - Can learn about why and how this happens through <a href="https://www.thedoglearningcentre.co.uk/post/trigger-stacking">this article on trigger stacking</a>
+- In addition to exercising your dog physically and mentally, you can also encourage behaviour by making sure the puppy <strong>gets the rest they need</strong>
+    - Generally, young puppies need <strong>16-20 hours of sleep a day</strong></p>
+<p>Basic Commands
+- A list of basic commands and how to go through with them <a href="https://www.reddit.com/r/puppy101/wiki/teachingcommands">can be found also on the reddit wiki</a></p>
+<h2 id="supplies">Supplies</h2>
+<p><em>Any supplies that I'm keeping my eye on</em>
+- <a href="https://www.homedepot.ca/product/3m-safety-walk-slip-resistant-tape-610b-r2x180-black-2-inch-x-15-ft-5-08-cm-x-4-57-m-1-pack/1001384345">Non-slip tape for doggy ramps</a>
+- <a href="https://www.lupinepet.com/">Pretty well-regarded collar/leash/harness maker</a></p>
+<h2 id="references">References</h2>
+<p><em>Any of the main resources used to make this document</em>
+- Personal vet recommendations
+- <a href="https://www.reddit.com/r/puppy101/wiki/index">The r/Puppy101 Wiki</a>
+- <a href="https://disruptivedog.com/puppy-socialization-checklist-printable/">DisruptiveDog's Puppy Socialization Article</a></p>
+    <!-- <div class="aspect-w-16 aspect-h-9 mx-auto"></div> CSS placeholder -->
+  </div>
+  <footer class="flex flex-col mt-10 ">
+    <ul class="flex flex-wrap">
+      <a href="https://loparcog.github.io/tag/dog.html">
+        <li
+          class="bg-zinc-200 hover:bg-zinc-300 dark:hover:bg-zinc-800 dark:bg-zinc-700 text-zinc-500 dark:text-neutral-400 mb-2 mr-2 px-3 py-1.5 rounded-md transition ease-in active:-translate-y-1 active:scale-110 duration-75">
+          Dog
+        </li>
+      </a>
+      <a href="https://loparcog.github.io/tag/research.html">
+        <li
+          class="bg-zinc-200 hover:bg-zinc-300 dark:hover:bg-zinc-800 dark:bg-zinc-700 text-zinc-500 dark:text-neutral-400 mb-2 mr-2 px-3 py-1.5 rounded-md transition ease-in active:-translate-y-1 active:scale-110 duration-75">
+          Research
+        </li>
+      </a>
+    </ul>
+    <div class="flex w-full my-2 bg-zinc-200 dark:bg-zinc-700 rounded-lg">
+      <div class="w-1/2 rounded-l-lg"></div>
+      <div class="w-1/2 hover:bg-zinc-300 dark:hover:bg-zinc-800 rounded-r-lg ">
+        <a class="flex flex-col" href="https://loparcog.github.io/tester.html">
+          <div class="text-right mx-4 py-2">
+            <p class="text-zinc-500 dark:text-neutral-400 text-sm">NEXT PAGE »</p>
+            <p class="text-right py-1 hover:underline">Tester</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="flex bg-zinc-200 dark:bg-zinc-700 py-2 rounded-lg justify-center space-x-2 text-xs">
+      <ul>
+        <a target="_blank" rel="noopener noreferrer" title="twitter" aria-label="share Features on twitter"
+          href="https://twitter.com/intent/tweet/?text=Features&amp;url=https://loparcog.github.io/mostly-complete-dogument.html">
+          <li class="bg-gray-900 p-1 text-white rounded-md">
+            <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+          </li>
+        </a>
+      </ul>
+      <ul>
+        <a target="_blank" rel="noopener noreferrer" title="linkedin" aria-label="share Features on linkedin"
+          href="https://www.linkedin.com/sharing/share-offsite/?url=https://loparcog.github.io/mostly-complete-dogument.html">
+          <li class="bg-gray-900 p-1 text-white rounded-md">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </li>
+        </a>
+      </ul>
+      <ul>
+        <a target="_blank" rel="noopener noreferrer" title="reddit" aria-label="share Features on reddit"
+          href="https://reddit.com/submit?url=https://loparcog.github.io/mostly-complete-dogument.html">
+          <li class="bg-gray-900 p-1 text-white rounded-md">
+            <i class="fab fa-reddit fa-2x" aria-hidden="true"></i>
+          </li>
+        </a>
+      </ul>
+      <ul>
+        <a target="_blank" rel="noopener noreferrer" title="telegram" aria-label="share Features on telegram"
+          href="https://telegram.me/share/url?text=Features&amp;url=https://loparcog.github.io/mostly-complete-dogument.html">
+          <li class="bg-gray-900 p-1 text-white rounded-md">
+            <i class="fab fa-telegram fa-2x" aria-hidden="true"></i>
+          </li>
+        </a>
+      </ul>
+    </div>
+  </footer>
+  <div>
+  </div>
+</main>
+
+    </div>
+    <footer class="flex w-full text-xs justify-center mt-10 mb-6 text-zinc-500 dark:text-zinc-400">
+        <div class="px-4">
+            <span>©2022&nbsp;&#8226;&nbsp;</span>Powered by
+            <a class="underline" href="https://getpelican.com/">Pelican</a>&nbsp;&
+            <a class="underline" href="https://github.com/aleylara/Papyrus">&nbsp;Papyrus</a>
+        </div>
+    </footer>
+
+
+    <script>
+        let themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+        let themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia(
+                '(prefers-color-scheme: dark)').matches)) {
+            themeToggleLightIcon.classList.remove('hidden');
+        } else {
+            themeToggleDarkIcon.classList.remove('hidden');
+        }
+        let themeToggleBtn = document.getElementById('theme-toggle');
+        themeToggleBtn.addEventListener('click', function () {
+            themeToggleDarkIcon.classList.toggle('hidden');
+            themeToggleLightIcon.classList.toggle('hidden');
+            if (localStorage.getItem('color-theme')) {
+                if (localStorage.getItem('color-theme') === 'light') {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                }
+            } else {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                }
+            }
+        });
+    </script>
+    <script src="https://files.stork-search.net/releases/v1.4.0/stork.js"></script>
+    <script>
+        stork.register("sitesearch", "https://loparcog.github.io/search-index.st")
+    </script>
+</body>
+
+</html>

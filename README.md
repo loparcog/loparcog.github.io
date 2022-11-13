@@ -1,6 +1,6 @@
 # My Personal Site Repo
 
-Right now I'm trying [Pelican](https://getpelican.com/).
+Right now I'm utilizing [Pelican](https://getpelican.com/), with the [Papyrus](https://github.com/aleylara/Papyrus) theme.
 
 ## How are you deploying
 

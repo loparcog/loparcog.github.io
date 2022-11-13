@@ -3,6 +3,11 @@ base_directory = "/Users/loparcog/Documents/Projects/loparcog.github.io"
 html_selector = "main"
 
 [[input.files]]
-path = "my-first-review.html"
-url = "/my-first-review.html"
-title = "My First Review"
+path = "mostly-complete-dogument.html"
+url = "/mostly-complete-dogument.html"
+title = "Mostly Complete Dogument"
+
+[[input.files]]
+path = "tester.html"
+url = "/tester.html"
+title = "Tester"
