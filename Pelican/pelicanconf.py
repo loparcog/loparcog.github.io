@@ -1,6 +1,6 @@
 AUTHOR = 'Giacomo Loparco'
 SITENAME = 'giacomo'
-# SITEURL = 'https://loparcog.github.io/'
+SITEURL = 'https://loparcog.github.io/'
 TIMEZONE = 'America/Toronto'
 DEFAULT_LANG = 'en'
 
