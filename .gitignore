@@ -1,9 +1,11 @@
 # Ignore any VS files
-.vs
-.vscode
+*.vs
+*.vscode
 
 # Ignore macOS files
-.DS_Store
+*.DS_Store
 
-# Ignore static sites
-site/
+# Ignore python things
+__pycache__
+output/
+
