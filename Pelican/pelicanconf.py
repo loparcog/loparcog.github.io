@@ -3,7 +3,6 @@ SITENAME = 'giacomo'
 SITEURL = 'https://loparcog.github.io'
 TIMEZONE = 'America/Toronto'
 DEFAULT_LANG = 'en'
-
 SUBTITLE = 'giacomo loparco'
 SUBTEXT = 'he/they ~ software engineer journeys into audio programming and dog ownership'
 COPYRIGHT = '©2022'

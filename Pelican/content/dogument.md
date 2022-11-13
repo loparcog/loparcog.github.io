@@ -7,16 +7,18 @@ Summary: New dog coming in, gathered a boatload of information for preparation a
 This document holds any dog/puppy research I have found and hope to have on hand. All of this is a compilation of different available internet resources and other in-person advice, which should all be covered in the references section. **Note that this is not an end-all, just what I thought was useful to check out.**
 
 
-## Socialization
+## Socialization TEST
 *Getting the puppy familiar with people, other animals, and how to act around them*
 
 Socialization Basics
+
 - Time for puppy to learn about the world and others in it
 - Most sensitive time (most important time for socialization) around **3 weeks to 3-4 months (12-16 weeks)**
 - Build positive associations with the environment and others around the puppy, setting them up to be calm, curious, and confident dogs
 - "Behavioral issues, not infectious diseases, are the number one cause of death for dogs under three years of age."
 
 What/How to Socialize
+
 - Checklist available [here](https://disruptivedog.com/wp-content/uploads/2017/08/DisruptiveDog_ThePuppySocializationChecklist.pdf) for general things you should try to expose the puppy to
     - Can try to rate experiences depending on how the puppy reacts
 - **Always try to facilitate a positive experience for the pup**
@@ -32,6 +34,7 @@ What/How to Socialize
     - This would apply to brushing (let them get familiar with the brush before actually brushing them)
 
 How to Rate Puppy Reactions
+
 - Can try to use this simple 1-5 rating scale from [Dr. Sophia Yin](https://drsophiayin.com/). 1-3 means you still need work, 4-5 means it is already great.
 1. **Overarousal or Trying to Attack**: Growling, nipping, barking, struggling (for handling) and/or lunging
 2. **Avoidance**: Struggling, hiding or trying to get away, won't approach or hesitant
@@ -40,6 +43,7 @@ How to Rate Puppy Reactions
 5. **Calm, Relaxed, even Without Food**: Same as previous, just less reliance on treats
 
 When to Meet Other Dogs?
+
 - Depends on the vaccine schedule of your dog and other dogs
     - For our sake, semi-vaccinated (*SV*) is 12 weeks, and fully-vaccinated (*FV*) is 16 weeks
 - **No meeting** when your puppy is <12 weeks old
@@ -47,6 +51,7 @@ When to Meet Other Dogs?
 - **Any meeting** when your puppy is FV (16 weeks)
 
 How to Meet Other Dogs?
+
 - Avoid on-leash greetings
     - If not possible (obviously a puppy should be kept on leash), try to keep leash as loose as possible
 - Try to avoid allowing every possible greeting
@@ -57,6 +62,7 @@ How to Meet Other Dogs?
     - Loads of variables from other dogs, could be overwhelming and could need to put more trust than you want to in the other dogs, best to find friends/family/neighbours to interact with whose dogs you know are safe and good with others
 
 How to get a Puppy and Old Dog Together?
+
 - Let the old dog lead the interactions
     - Allow the old dog to choose when to interact with the puppy, your main goal here would just be to have the puppy *around* them when they're up so they have the choice to come over and check them out
 - Protect the old dog
@@ -70,6 +76,7 @@ How to get a Puppy and Old Dog Together?
 *Overarching rules of any puppy training*
 
 What to Expect
+
 - There's a [great infographic](https://behaveatlanta.com/handoutsnstuff/dog-developmental-stages-infographic) helping to describe a puppy's different stages of development
 - Try to keep things realistic and relative
     - **Be patient**, don't expect a wildly quick training phase
@@ -77,6 +84,7 @@ What to Expect
         - Take this with a grain of salt obviously but don't go nuts if you don't match up, everyone's puppy experience is different
 
 Methods to Train
+
 - Focus on [*least intrusive, minimally aversive* (LIMA)](https://m.iaabc.org/about/lima/)
 - Will essentially be a basis of rewards and punishments, with a focus on positive reinforcement and negative punishment
     - **Positive reinforcement** involves giving a reward directly after a desirable behaviour/action, increasing the likelihood of that behaviour in the future
@@ -92,16 +100,19 @@ Methods to Train
 *Please, please, I beg you, don't pee on the carpet again*
 
 Expectations
+
 - As with the other steps, every puppy progresses at their own pace, so patience and realistic expectations are key
 - Most puppies don't have much, *if any*, bladder control until **8 weeks**, where capacity and control start to build
 - Puppies cannot understand that going to the washroom in the house is not acceptable, so this needs to be trained through reinforcement and consistency
 
 How/When to Positively Reinforce
+
 - When your puppy pees/poops in an **appropriate** spot, **praise freely**
     - Make a *personal determination* about how excited the praise should be. Convey pleasure but don't go overboard as to stop the puppy from making the connection between the action and the praise
 - Treats can be used for reinforcement at the start since bond may be weak, and this can be continued until the puppy is reliably house trained, randomly give treats for success after that point
 
 Schedule and Management
+
 - Goal to prevent accidents
     - If an accident does occur, **that's on you**, you can't punish the puppy for something they don't know is bad
 - When starting, **don't let >30 minutes pass without a trip outside**, aside from when the puppy is sleeping
@@ -116,6 +127,7 @@ Schedule and Management
 - Can slowly progress to just going out once after 4 hours between **9 to 12 weeks**, when they can hopefully hold it the whole night past 12 weeks
 
 Do's and Don'ts of Potty Trips
+
 - **Do:**
     - Take your puppy **on leash** to the **same spot to potty every time**, somewhere you can get to quickly and are willing to go out to in your PJs
     - When there, **stand still and be quiet** to let the puppy focus on the need to go potty
@@ -128,6 +140,7 @@ Do's and Don'ts of Potty Trips
     - **Use pee pads unless needed**, can really mess with puppy's idea of when it is or isn't okay to pee inside
 
 Cues/Signals
+
 - **Word cues** can be used to let the puppy know it's time to go to the washroom
     - To train a word que, **wait several days** until your puppy figures out what they're doing at the potty spot
     - Once you can predict when your puppy is about to go, **start saying your cue one second before the puppy actually starts to go**, and as with other word cues, only say it **once**
@@ -138,12 +151,14 @@ Cues/Signals
     3. Gradually say this vocal cue farther from the puppy to encourage them to come to you instead of standing by the door, to help avoid scenarios where the puppy needs to go out and you are in another room and can't see them
 
 Confinement
+
 - Dogs naturally want to **avoid soiling their personal space**, which for puppies is usually only their bed or small area, which encourages them to hold it for longer
     - Crate training is ideal for this to really cement where their personal space is, but you need to make sure you **don't force the puppy to go in their crate**
     - Note that this also supports the need to get a smaller crate, as to not allow them to go to the washroom in one side of the crate and sleep in the other
 - If a puppy *needs* to be left alone for longer than they can hold it, consider a **pen or closed off room** with their crate in it, and expect an accident to happen in that room/area
 
 Supervision and Accidents
+
 - When not sleeping or crated, the puppy must be under **immediate supervision**, being actively watched and engaged with
     - Can ground them by tying them down to a piece of furniture, so you don't need to follow them everywhere
 - **Watch for signals** that the puppy needs to go out, and be ready to get them out
@@ -160,7 +175,9 @@ Supervision and Accidents
 # Crate Training
 
 *How to properly get your pup comfy in their crate*
+
 Why?
+
 - **Initial safe space** for the pup, gives them their own "domain"
     - Can then expand this to the whole house as they are trained
     - May not need the crate in the future after that, up to the pup
@@ -169,6 +186,7 @@ Why?
 - **NOTE:** This does not work for **ALL** dogs, so don't try to force it
 
 How?
+
 - We want to teach our pup that their crate is their **safe space**, so they don't fear it, but rather go there on their own when needed
 - Ranges for everyone, but can get pups properly crate trained in 1 to 3 weeks
 - Whenever the pup is due for a nap, try to get them to **nap in the crate**, to enforce this idea
@@ -177,6 +195,7 @@ How?
     - Need to make crate bigger as they grow, which is where **adjustable crates** may be a good go-to
 
 Setting up the Crate
+
 - Place the crate away from...
     - **Direct sunlight**
     - **Heat sources**
@@ -185,6 +204,7 @@ Setting up the Crate
 - Before the puppy is **EVER** going into the crate, make sure they have **no leash, collar, etc.**, since those can snag and harm your pup
 
 First Introductions of Puppy and Crate
+
 - Initially, have the crate set up with the door **always open**, and allow the puppy to examine it, whether they go inside or just look at it, for them to get familiar with it
     - Initially, try to set up the crate in a **busy area of the house** where **lots of time is spent** (ie. living room)
 - Place some treats near, around, and just inside the crate, and then let the puppy explore it
@@ -197,6 +217,7 @@ First Introductions of Puppy and Crate
     - **NEVER** force them in, that's not the goal, we just want them familiar and comfortable with this crate
 
 Training the Puppy with the Crate
+
 - Now that they're familiar, we start rewarding them for **going in the crate**
     - "High value treats" are recommended here, like **cooked meats**, or something other than kibble, but to each their own
 - Whenever the pup sites in the crate, **give them a treat** by placing it in the crate, along with any quick affirming praise
@@ -204,6 +225,7 @@ Training the Puppy with the Crate
     - If they leave the crate, they **do not get the treat**
 
 20-Step Crate Training Plan
+
 - All from [this article](https://www.labradortraininghq.com/labrador-training/how-to-crate-train-a-puppy/#What_Is_Puppy_Crate_Training)
 - Each step should be rewarded with an **affirmation and a treat**, along with anything else stated
     - May not want to treat **all the time**, to make sure that the puppy makes a positive affirmation with the crate rather than just looking for treats, but this can be done later on
@@ -246,6 +268,7 @@ Training the Puppy with the Crate
         - Should be able to move it around the house normally, but this would be more extreme (outside, other houses, etc.)
 
 Night Time Training
+
 - Give plenty of **exercise throughout the day**, especially leading up to the hour or so before bedtime
 - Make sure they have **no naps** leading up to bedtime
     - If the start falling asleep, do everything you can to keep them awake
@@ -261,12 +284,14 @@ Night Time Training
 *Puppy teeth are little knives, many little knives*
 
 Puppy Biting
+
 - **Normal, natural, and necessary**
     - Should not prohibit biting to start
     - Need to let them explore, teach gentle play, and then end with only biting when initiated in play by **you**
 - Multiple ways to go about it, I'll go through two that I feel look useful
 
 Teaching a *Gentle* Cue
+
 - Done to **let your pup know how and when to be gentle**
 - To do this, **hold a treat in your fist and hold it out to your pup**
 - Let your dog mouth your hand, but wait for their mouth to pull away
@@ -277,6 +302,7 @@ Teaching a *Gentle* Cue
     - Practice often to help enforce this word
 
 Fading the Bite
+
 - As pups, **dogs need to mouth to learn to moderate their strength**
     - If the pup is less than 3-4 months (12-16 weeks) old, let them mouth you, but **stop all interaction** when mouthing gets harder than usual
     - Try to let the pup mouth for **a minute or two** while being gentle, then reward with a **treat or a toy** to end mouthing
@@ -284,6 +310,7 @@ Fading the Bite
     - At four months, cue an **incompatible behaviour** like *gentile* or *sit*, if you sense your dog will start biting
 
 No Pain, No Pressure, and Off Method
+
 - **No Pain**: Use an "ouch" to let your puppy know when biting is hurting
     - If the "ouch" is acknowledged, **praise, lure them to sit, and give a treat**
     - If ignored, yelp a louder ouch and leave the room. Return after a 30-second time-out and make up by lure-rewarding your pup to sit, lie down, or come and calm down before resuming play
@@ -294,6 +321,7 @@ No Pain, No Pressure, and Off Method
 - **Off!**: Once the pup gives **no pressure when mouthing**, teach them to **reduce the frequency of mouthing**, and make sure they know **when you ask them to stop, they must stop mouthing**
 
 Picking on Older Dogs
+
 - Taking some main points [from this great article](https://suzanneclothier.com/article/stop-poking-grandma-whats-fair-older-dogs-puppies/):
     - You **don't need to force confrontation**
     - Try to **teach your puppy how to behave** around their older counterparts
@@ -305,6 +333,7 @@ Picking on Older Dogs
 *Not bad, but not good*
 
 Stop Jumping On People
+
 - Main goal is to give the dog an **acceptable and rewarding option other than jumping**
 - Reward for **"Four on the floor"**
     - Simplest solution, teach your dog how much **fun it is to keep all paws on the floor**
@@ -329,12 +358,15 @@ Stop Jumping On People
         - Pet or give attention while jumping
 
 Resource Guarding
+
 - Not needed right now, but in case, [here is a link describing what to do](https://www.patriciamcconnell.com/theotherendoftheleash/resource-guarding-dog-to-dog)
 
 Adolescence
-- Also a whole bag of issues, but currently dealing with a puppy, will  circle back on this
+
+- Also a whole bag of issues, but currently dealing with a puppy, will circle back on this
 
 Separation Anxiety and Isolation Distress
+
 - Conditions where a dog becomes **excessively anxious** when separated from a specific person or people or left alone
 - Can be treated similarly so terms are used interchangeably
 - Important to know that **it is normal for young puppies to cry, whine or panic when left alone for the first few weeks of being separated from their mother and littermates**
@@ -348,6 +380,7 @@ Separation Anxiety and Isolation Distress
 - More detailed documents also in [puppy reddit wiki, found here](https://www.reddit.com/r/puppy101/wiki/managingbehavior)
 
 Settling and Calmness
+
 - No "off-switch" on puppies, some need to learn calmness rather than knowing it innately
 - You can **shape and reward settling behaviour** the same way you would any other skill
 - Often, when a puppy owner thinks their pup has too much energy, they throw **more stimulation at their dog**, which is **problematic**
@@ -363,17 +396,20 @@ Settling and Calmness
     - Generally, young puppies need **16-20 hours of sleep a day**
 
 Basic Commands
+
 - A list of basic commands and how to go through with them [can be found also on the reddit wiki](https://www.reddit.com/r/puppy101/wiki/teachingcommands)
 
 ## Supplies
 
 *Any supplies that I'm keeping my eye on*
+
 - [Non-slip tape for doggy ramps](https://www.homedepot.ca/product/3m-safety-walk-slip-resistant-tape-610b-r2x180-black-2-inch-x-15-ft-5-08-cm-x-4-57-m-1-pack/1001384345)
 - [Pretty well-regarded collar/leash/harness maker](https://www.lupinepet.com/)
 
 ## References
 
 *Any of the main resources used to make this document*
+
 - Personal vet recommendations
 - [The r/Puppy101 Wiki](https://www.reddit.com/r/puppy101/wiki/index)
 - [DisruptiveDog's Puppy Socialization Article](https://disruptivedog.com/puppy-socialization-checklist-printable/)
