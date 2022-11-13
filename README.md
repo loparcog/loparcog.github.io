@@ -6,6 +6,6 @@ Right now I'm utilizing [Pelican](https://getpelican.com/), with the [Papyrus](h
 
 The entire project is in the Pelican directory. Entering this directory and running
 
-`pelican content -o .. -s pelicanconf.py`
+`pelican content -o ../docs -s pelicanconf.py`
 
 will put the output to the main directory where GitHub will fetch and host it.

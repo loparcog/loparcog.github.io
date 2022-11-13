@@ -8,6 +8,7 @@ SUBTEXT = 'he/they ~ software engineer journeys into audio programming and dog o
 COPYRIGHT = '©2022'
 PATH = 'content'
 THEME = 'themes/Papyrus'
+STATIC_PATHS = ['images']
 THEME_STATIC_PATHS = ['static']
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['readtime', 'search', 'neighbors', 'pelican-toc']

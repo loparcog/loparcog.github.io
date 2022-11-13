@@ -1,0 +1,13 @@
+[input]
+base_directory = "/Users/loparcog/Documents/Projects/loparcog.github.io/docs"
+html_selector = "main"
+
+[[input.files]]
+path = "conways-game-of-synth.html"
+url = "/conways-game-of-synth.html"
+title = "Conway's Game of Synth"
+
+[[input.files]]
+path = "mostly-complete-dogument.html"
+url = "/mostly-complete-dogument.html"
+title = "Mostly Complete Dogument"

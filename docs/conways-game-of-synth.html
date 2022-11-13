@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Pelican" />
+    <title>Conway's Game of Synth</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+    <link rel="stylesheet" type="text/css" href="https://loparcog.github.io/theme/css/main.css" />
+    <link rel="stylesheet" href="https://loparcog.github.io/theme/css/stork.css">
+    <link rel="stylesheet" media="screen and (prefers-color-scheme: dark)"
+        href="https://loparcog.github.io/theme/css/stork-dark.css">
+    <link
+        href="https://loparcog.github.io/feeds/all.atom.xml"
+        type="application/atom+xml" rel="alternate" title="giacomo Atom Feed" />
+<meta name="description" content="Merging an interest in Conway's Game of Life with very crude generative synthesis." />
+    <script>
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia(
+                '(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    </script>
+</head>
+
+<body class="min-h-screen flex flex-col max-w-7xl lg:max-w-none text-zinc-800 bg-neutral-100 
+    dark:bg-neutral-900 dark:text-zinc-300 container mx-auto justify-center md:px-3 ">
+    <nav class="sm:flex sm:justify-between xl:ml-32 pl-4 items-center">
+        <div class="flex pt-4">
+            <h1 class="font-semibold text-2xl"><a href="https://loparcog.github.io/">giacomo</a></h1>
+            <button id="theme-toggle" type="button"
+                class="text-zinc-700 dark:text-zinc-400 rounded-full focus:outline-none text-sm ml-2 p-1">
+                <svg id="theme-toggle-dark-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                </svg>
+                <svg id="theme-toggle-light-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                        fill-rule="evenodd" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+        <ul class="flex flex-wrap lg:mr-24 md:pt-0">
+            <li class="mr-4 pt-6"><a  href="https://loparcog.github.io/archives.html">Archive</a></li>
+            <li class="mr-4 pt-6"><a                     href="https://loparcog.github.io/categories.html">Categories</a></li>
+            <li class="mr-4 pt-6"><a  href="https://loparcog.github.io/tags.html">Tags</a></li>
+            <li class="mr-4 pt-6"><a  href="https://loparcog.github.io/search.html">Search</a></li>
+        </ul>
+    </nav>
+    <div class="flex-grow md:max-w-screen-md md:mx-auto md:w-3/4 px-4">
+        <nav class="text-zinc-800 dark:text-zinc-300 mt-12 pb-2 md:mt-16" aria-label="Breadcrumb">
+            <ul class="p-0 inline-flex items-center">
+                <li class="flex items-center">
+                    <a href="https://loparcog.github.io/" class="text-zinc-800 dark:text-zinc-300 inline-flex items-center">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
+                            </path>
+                        </svg>
+                        Home
+                    </a>
+                    <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512">
+                        <path
+                            d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
+                    </svg>
+                </li>
+                <li class="flex items-center">
+                    <a href="https://loparcog.github.io/categories.html">Categories</a>
+                    <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512">
+                        <path
+                            d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
+                    </svg>
+                </li>
+                <li class="flex items-center">
+                    <a href="https://loparcog.github.io/category/audio-programming.html">Audio Programming</a>
+                </li>
+                <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                        d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
+                </svg>
+            </ul>
+        </nav>
+
+<main>
+  <header>
+    <h1 class="font-semibold text-3xl my-2">Conway's Game of Synth</h1>
+    <footer class="flex text-sm text-zinc-800 dark:text-zinc-400">
+      <div class="flex text-xs text-zinc-800 dark:text-zinc-400">
+        <time>January 31, 2022</time>
+        <div>
+          <span>&nbsp;·&nbsp;5 min read</span>
+        </div>
+        <div>
+          <span>&nbsp;·&nbsp;Giacomo Loparco</span>
+        </div>
+      </div>
+    </footer>
+  </header>
+  <details class="flex flex-col my-6 p-4 bg-zinc-200 dark:bg-zinc-800 rounded-lg">
+    <summary class="text-lg font-bold">Table of contents</summary>
+    <div class="mx-4 px-4 underline">
+      <div id="toc"><ul><li><a class="toc-href" href="#what" title="What?">What?</a></li><li><a class="toc-href" href="#why" title="Why?">Why?</a></li><li><a class="toc-href" href="#how" title="How?">How?</a></li></ul></div>
+    </div>
+  </details>
+  <div class="max-w-7xl container mx-auto my-8 text-zinc-800 dark:text-zinc-300  
+              prose lg:max-w-none prose-headings:text-zinc-800 prose-headings:dark:text-zinc-300 
+              prose-h1:text-3xl lg:prose-h1:text-3xl prose-headings:font-semibold 
+              prose-pre:bg-zinc-200 prose-pre:text-zinc-800
+              dark:prose-pre:bg-zinc-800 dark:prose-pre:text-zinc-200
+              prose-blockquote:text-zinc-800
+              dark:prose-blockquote:text-zinc-200
+              prose-a:text-gray-500
+              dark:prose-a:text-gray-400
+              dark:prose-strong:text-zinc-200 
+              dark:prose-code:text-zinc-200
+              dark:prose-code:bg-zinc-800
+              prose-code:bg-zinc-200
+              prose-code:font-light
+              prose-img:rounded-md
+              ">
+    <p><em>This project is currently unhosted, and any code referenced can be found at <a href="https://github.com/loparcog/conway-synth">the GitHub codebase</a></em></p>
+<h2 id="what">What?</h2>
+<p><em>What in the good name of Conway is a Conway Synthesizer</em></p>
+<p>Okay so, this one is going to come in layers. First off, Conway's Game of Life. John Conway, a British Mathematician created the Game of Life in 1970, with the wiki <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">found here</a> and a playable demo <a href="https://playgameoflife.com/">found here</a>. Both of those links would explain it better than I could, but essentially, it's a zero-player game, setting a starting state and then letting the game run its course by deciding which cells will be on or off in each following iteration. The rules for which cells live and die each iteration can be condensed to the following:</p>
+<ol>
+<li>Any live cell with two or three live neighbours survives, having a healthy surrounding population.</li>
+<li>Any dead cell with three live neighbours becomes a live cell.</li>
+<li>All other live cells die in the next generation due to over or underpopulation. Similarly, all other dead cells stay dead.</li>
+</ol>
+<p>This in itself isn't anything to ride home about, <em>but</em>, the patterns people have found for this game have been, personally, mind boggling.</p>
+<p><img alt="Example pattern in Conway's Game of Life" src="https://loparcog.github.io/images/gol.gif"/></p>
+<p>A synthesizer is a synthesizer I'm gonna leave that rabbit hole for you to dive into at your own discretion. Give it a signal it'll make a sound, which can be modulated to be light and clean or extremely Aphex Twin-y aggressive.</p>
+<h2 id="why">Why?</h2>
+<p><em>...</em></p>
+<p>The main drive behind this one is wanting to get something <em>musical</em> out, but not being able to force myself to sit down at the piano and try to learn chords. I know how to code, so I thought this would be nice, and generative art is all the rage. Conway's Game of Life has always intrigued me, and with such a simple backing, I thought it would be really interesting to try to add some musical aspect to it. This has been done before by others, <a href="https://www.youtube.com/watch?v=x22zysfrVSk">as</a> <a href="https://www.youtube.com/watch?v=zbVOK2GLV-E">seen</a> <a href="https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/f2011/lba36_wl336/lba36_wl336/index.html">here</a>, but many of these follow a step-sequencer approach, treating the y-axis as pitch and x-axis as time. What I wanted to do was get something that truly generated sound with each iteration, more like <a href="https://www.youtube.com/watch?v=avK-BmL2KZ4">this project</a>, but with more chance for user modulation and adjustment. Thus, the <em>synthesizer</em> part of the Conway Synthesizer. I also really wanted to utilize Tone.js after looking at it for past projects, and thought this would be a great use case. The project isn't about the music I can make but rather the musical tools I can create for others, implementing the built up knowledge of Game of Life and applying it to a musical landscape.</p>
+<p>If the why is pertaining to why I made a blogpost about this, I got bored of coding get off my back.</p>
+<h2 id="how">How?</h2>
+<p><em>So x-axis is pitch, y-axis is...</em></p>
+<p>This is the point where this document is very much alive, so take things here with fistfulls of salt. The overarching background for this is that everything is coded in javascript, with the synth sounds coming from the very lovely <a href="https://tonejs.github.io/">Tone.js Library</a></p>
+<p>The Game of Life how is very simple. As stated above, there's those three rules for how cells should be created or destroyed. For this, I'm using a canvas to create a grid of rectangles which can be toggled on and off, and when started, will continue to be toggled based off those rules each iteration. Small data structure for each cell so they have code on what to do when clicked and where they are on the canvas as well as in relation to other cells, index-wise. Easy peasy.</p>
+<p>The <strong><em>SYNTHESIZER</em></strong> though, this is interesting. So, we have two axis to play around with. As I'm most familiar with piano, it seemed to make the most sense to make the x-axis change the pitch. Again, easy peasy, just set a number-to-key translation, which <a href="https://tonejs.github.io/docs/r11/Frequency">Tone nicely does</a>, and set each cell to have it's own note based on it's x-axis index. Iterating the game now makes a mash of sounds, and the gliders sound like someone slamming their fist on the piano in lower at lower and lower points, or higher, however you set up your glider. To avoid some of this chaos, I removed sounds from cells that stay alive between iterations, and only set it to play sounds from newly generated cells. Still sounds like chaos, but much less so.</p>
+<p>Before going into ironing out the x-axis, there is a giant design issue here. The y-axis. What does it represent? What sound aspect can be changed? What does Tone allow? All great questions, none too helpful. I've currently still been playing around with some options, specifically things like volume, timbre, or oscillator functions like waveform and phase. As it stands, I still need to do some experimentation to see what would be best left to the Game of Life and what would be best left to the user, but I'm currently leaning towards the waveform shape being adjusted on the y-axis. The envelope would be a little messy since that's like four different parameters, so I'm leaving that one to the user. Something else I've been looking at was the <a href="https://roli.com/products/seaboard">Roli Seaboard</a>, which has "five dimensions of touch control", and essentially uses where you're pressing on the key as another way to modulate the sound. It's an interesting problem that I've left for now.</p>
+<p>Now, ironing out the x-axis. Scrolling through all possible notes, seeing as how the Game of Life will commonly need cells to generate close to one another, doesn't seem like the best solution to make things sound "good". I've though about playing around with scales instead, letting the user decide on which scales they may want to set the game to use, and then try an iteration and see how it sounds. Other options were maybe setting up chords, but for mass-generating machines, that would also sound probably too chaotic to be good. In the example above, setting portamento and release pretty high to get that spacey effect on all the notes would be a great way to merge them, but those would be parameters I would want to leave for the user, so that's not an option.</p>
+    <!-- <div class="aspect-w-16 aspect-h-9 mx-auto"></div> CSS placeholder -->
+  </div>
+  <footer class="flex flex-col mt-10 ">
+    <ul class="flex flex-wrap">
+      <a href="https://loparcog.github.io/tag/synth.html">
+        <li
+          class="bg-zinc-200 hover:bg-zinc-300 dark:hover:bg-zinc-800 dark:bg-zinc-700 text-zinc-500 dark:text-neutral-400 mb-2 mr-2 px-3 py-1.5 rounded-md transition ease-in active:-translate-y-1 active:scale-110 duration-75">
+          Synth
+        </li>
+      </a>
+    </ul>
+    <div class="flex w-full my-2 bg-zinc-200 dark:bg-zinc-700 rounded-lg">
+      <div class="w-1/2 rounded-l-lg"></div>
+      <div class="w-1/2 hover:bg-zinc-300 dark:hover:bg-zinc-800 rounded-r-lg ">
+        <a class="flex flex-col" href="https://loparcog.github.io/mostly-complete-dogument.html">
+          <div class="text-right mx-4 py-2">
+            <p class="text-zinc-500 dark:text-neutral-400 text-sm">NEXT PAGE »</p>
+            <p class="text-right py-1 hover:underline">Mostly Complete Dogument</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="flex bg-zinc-200 dark:bg-zinc-700 py-2 rounded-lg justify-center space-x-2 text-xs">
+      <ul>
+        <a target="_blank" rel="noopener noreferrer" title="twitter" aria-label="share Features on twitter"
+          href="https://twitter.com/intent/tweet/?text=Features&amp;url=https://loparcog.github.io/conways-game-of-synth.html">
+          <li class="bg-gray-900 p-1 text-white rounded-md">
+            <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+          </li>
+        </a>
+      </ul>
+      <ul>
+        <a target="_blank" rel="noopener noreferrer" title="linkedin" aria-label="share Features on linkedin"
+          href="https://www.linkedin.com/sharing/share-offsite/?url=https://loparcog.github.io/conways-game-of-synth.html">
+          <li class="bg-gray-900 p-1 text-white rounded-md">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </li>
+        </a>
+      </ul>
+      <ul>
+        <a target="_blank" rel="noopener noreferrer" title="reddit" aria-label="share Features on reddit"
+          href="https://reddit.com/submit?url=https://loparcog.github.io/conways-game-of-synth.html">
+          <li class="bg-gray-900 p-1 text-white rounded-md">
+            <i class="fab fa-reddit fa-2x" aria-hidden="true"></i>
+          </li>
+        </a>
+      </ul>
+      <ul>
+        <a target="_blank" rel="noopener noreferrer" title="telegram" aria-label="share Features on telegram"
+          href="https://telegram.me/share/url?text=Features&amp;url=https://loparcog.github.io/conways-game-of-synth.html">
+          <li class="bg-gray-900 p-1 text-white rounded-md">
+            <i class="fab fa-telegram fa-2x" aria-hidden="true"></i>
+          </li>
+        </a>
+      </ul>
+    </div>
+  </footer>
+  <div>
+  </div>
+</main>
+
+    </div>
+    <footer class="flex w-full text-xs justify-center mt-10 mb-6 text-zinc-500 dark:text-zinc-400">
+        <div class="px-4">
+            <span>©2022&nbsp;&#8226;&nbsp;</span>Powered by
+            <a class="underline" href="https://getpelican.com/">Pelican</a>&nbsp;&
+            <a class="underline" href="https://github.com/aleylara/Papyrus">&nbsp;Papyrus</a>
+        </div>
+    </footer>
+
+
+    <script>
+        let themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+        let themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia(
+                '(prefers-color-scheme: dark)').matches)) {
+            themeToggleLightIcon.classList.remove('hidden');
+        } else {
+            themeToggleDarkIcon.classList.remove('hidden');
+        }
+        let themeToggleBtn = document.getElementById('theme-toggle');
+        themeToggleBtn.addEventListener('click', function () {
+            themeToggleDarkIcon.classList.toggle('hidden');
+            themeToggleLightIcon.classList.toggle('hidden');
+            if (localStorage.getItem('color-theme')) {
+                if (localStorage.getItem('color-theme') === 'light') {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                }
+            } else {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                }
+            }
+        });
+    </script>
+    <script src="https://files.stork-search.net/releases/v1.4.0/stork.js"></script>
+    <script>
+        stork.register("sitesearch", "https://loparcog.github.io/search-index.st")
+    </script>
+</body>
+
+</html>
