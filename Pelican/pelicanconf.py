@@ -8,7 +8,10 @@ SUBTEXT = 'he/they ~ software engineer journeys into audio programming and dog o
 COPYRIGHT = '©2022'
 PATH = 'content'
 THEME = 'themes/Papyrus'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extras']
+EXTRA_PATH_METADATA = {
+    'extras/favicon.ico': {'path': 'favicon.ico'},
+}
 THEME_STATIC_PATHS = ['static']
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['readtime', 'search', 'neighbors', 'pelican-toc']
@@ -16,6 +19,7 @@ PLUGINS = ['readtime', 'search', 'neighbors', 'pelican-toc']
 DISPLAY_PAGES_ON_MENU = True
 DIRECT_TEMPLATES = (('index', 'search', 'tags', 'categories', 'archives',))
 PAGINATED_TEMPLATES = {'index':None,'tag':None,'category':None,'author':None,'archives':24,}
+
 
 # Site search plugin
 SEARCH_MODE = "output"

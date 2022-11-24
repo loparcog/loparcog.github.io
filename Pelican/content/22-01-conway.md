@@ -2,7 +2,7 @@ Title: Conway's Game of Synth
 Date: 2022-01-31
 Tags: Synth
 Category: Audio Programming
-Summary: Merging an interest in Conway's Game of Life with very crude generative synthesis.
+Summary: Merging an interest in Conway's Game of Life with very crude generative synthesis in a small side project.
 
 *This project is currently unhosted, and any code referenced can be found at [the GitHub codebase](https://github.com/loparcog/conway-synth)*
 
