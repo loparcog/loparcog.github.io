@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>giacomo loparco</title>
+    <link>http://loparcog.github.io/</link>
+    <description>Recent content on giacomo loparco</description>
+    <image>
+      <url>http://loparcog.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://loparcog.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Dec 2022 15:05:25 -0500</lastBuildDate><atom:link href="http://loparcog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dogument</title>
+      <link>http://loparcog.github.io/posts/dogument/</link>
+      <pubDate>Thu, 08 Dec 2022 15:05:25 -0500</pubDate>
+      
+      <guid>http://loparcog.github.io/posts/dogument/</guid>
+      <description>New dog coming in, gathered a boatload of information for preparation and reference. Future edit, her name is Lola and she is a dream.</description>
+    </item>
+    
+  </channel>
+</rss>
