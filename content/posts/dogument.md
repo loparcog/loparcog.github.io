@@ -1,7 +1,7 @@
 ---
-title: "Dogument"
+title: "Lola's Research Dogument \U0001F415"
 summary: New dog coming in, gathered a boatload of information for preparation and reference. Future edit, her name is Lola and she is a dream.
-date: 2022-12-08T15:05:25-05:00
+date: 2021-05-21
 draft: false
 tags: ["dog", "research"]
 showToc: true

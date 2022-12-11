@@ -1,0 +1,15 @@
+/* Light theme */
+:root div.post-content a:link {
+    color: #8565c4;
+}
+:root div.post-content a:visited {
+    color: #8565c4;
+}
+
+/* Dark theme */
+.dark div.post-content a:link {
+    color: #a28ad2;
+}
+.dark div.post-content a:visited {
+    color: #a28ad2;
+}

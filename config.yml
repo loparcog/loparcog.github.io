@@ -1,6 +1,6 @@
 baseURL: http://loparcog.github.io/
 languageCode: en
-title: giacomo loparco
+title: giacomo
 theme: "PaperMod"
 paginate: 5
 
@@ -15,12 +15,12 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: giacomo loparco
-  description: "personal site"
+  title: giacomo
+  description: "programming, dogs, music, and crazed ramblings"
   keywords: [Blog, Portfolio, Programming, Coding]
   author: Giacomo Loparco
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["img/pfp.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -42,31 +42,30 @@ params:
   tocopen: false
 
   assets:
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "img/favicon.ico"
+    favicon16x16: "img/favicon-16x16.png"
+    favicon32x32: "img/favicon-32x32.png"
+    apple_touch_icon: "img/apple-touch-icon.png"
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: giacomo
     subtitle: "This is subtitle"
     imageUrl: "https://avatars.githubusercontent.com/u/36307557?v=4"
     imageWidth: 300
     imageHeight: 300
     imageTitle: my image
     buttons:
-      - name: Posts
+      - name: posts
         url: posts
-      - name: Tags
+      - name: tags
         url: tags
 
   # home-info mode
   homeInfoParams:
     Title: "Lizard sunning on a rock \U0001F98E \U0001FAA8"
-    Content: Trying to learn audio programming while jamming with my dog
+    Content: he/they ~ audio programming, dogs, and whatever catches my short and sporadic attention span
 
   socialIcons:
     - name: twitter
@@ -85,3 +84,7 @@ menu:
       name: tags
       url: /tags/
       weight: 10
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 20
