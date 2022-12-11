@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on giacomo</title>
-    <link>http://loparcog.github.io/posts/</link>
-    <description>Recent content in Posts on giacomo</description>
+    <title>synth on giacomo</title>
+    <link>http://loparcog.github.io/tags/synth/</link>
+    <description>Recent content in synth on giacomo</description>
     <image>
       <url>http://loparcog.github.io/img/pfp.png</url>
       <link>http://loparcog.github.io/img/pfp.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://loparcog.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://loparcog.github.io/tags/synth/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conway&#39;s Game of Synth 👾</title>
       <link>http://loparcog.github.io/posts/conway/</link>
@@ -18,15 +18,6 @@
       
       <guid>http://loparcog.github.io/posts/conway/</guid>
       <description>Merging an interest in Conway&amp;rsquo;s Game of Life with very crude generative synthesis in a small side project.</description>
-    </item>
-    
-    <item>
-      <title>Lola&#39;s Research Dogument 🐕</title>
-      <link>http://loparcog.github.io/posts/dogument/</link>
-      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://loparcog.github.io/posts/dogument/</guid>
-      <description>New dog coming in, gathered a boatload of information for preparation and reference. Future edit, her name is Lola and she is a dream.</description>
     </item>
     
   </channel>

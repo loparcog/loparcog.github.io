@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on giacomo loparco</title>
+    <title>Tags on giacomo</title>
     <link>http://loparcog.github.io/tags/</link>
-    <description>Recent content in Tags on giacomo loparco</description>
+    <description>Recent content in Tags on giacomo</description>
     <image>
-      <url>http://loparcog.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://loparcog.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://loparcog.github.io/img/pfp.png</url>
+      <link>http://loparcog.github.io/img/pfp.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Dec 2022 15:05:25 -0500</lastBuildDate><atom:link href="http://loparcog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://loparcog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>synth</title>
+      <link>http://loparcog.github.io/tags/synth/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://loparcog.github.io/tags/synth/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>dog</title>
       <link>http://loparcog.github.io/tags/dog/</link>
-      <pubDate>Thu, 08 Dec 2022 15:05:25 -0500</pubDate>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
       
       <guid>http://loparcog.github.io/tags/dog/</guid>
       <description></description>
@@ -23,7 +32,7 @@
     <item>
       <title>research</title>
       <link>http://loparcog.github.io/tags/research/</link>
-      <pubDate>Thu, 08 Dec 2022 15:05:25 -0500</pubDate>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
       
       <guid>http://loparcog.github.io/tags/research/</guid>
       <description></description>
