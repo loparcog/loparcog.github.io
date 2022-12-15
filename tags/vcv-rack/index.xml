@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>synth on giacomo</title>
-    <link>https://loparcog.github.io/tags/synth/</link>
-    <description>Recent content in synth on giacomo</description>
+    <title>vcv rack on giacomo</title>
+    <link>https://loparcog.github.io/tags/vcv-rack/</link>
+    <description>Recent content in vcv rack on giacomo</description>
     <image>
       <url>https://loparcog.github.io/img/pfp.png</url>
       <link>https://loparcog.github.io/img/pfp.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://loparcog.github.io/tags/synth/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://loparcog.github.io/tags/vcv-rack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Silly Sound&#39;s Sesame 🐱</title>
       <link>https://loparcog.github.io/posts/sesame/</link>
@@ -18,15 +18,6 @@
       
       <guid>https://loparcog.github.io/posts/sesame/</guid>
       <description>A virtual eurorack module built in VCV Rack made for clock modulation, specifically a merger of a swing and burst signal modulator.</description>
-    </item>
-    
-    <item>
-      <title>Conway&#39;s Game of Synth 👾</title>
-      <link>https://loparcog.github.io/posts/conway/</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://loparcog.github.io/posts/conway/</guid>
-      <description>Merging an interest in Conway&amp;rsquo;s Game of Life with very crude generative synthesis in a small side project.</description>
     </item>
     
   </channel>
