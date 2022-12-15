@@ -1,6 +1,6 @@
 ---
 title: "Silly Sound's Sesame \U0001F431"
-summary: "A virtual eurorack module built in VCV Rack made for clock modulation, specifically a merger of a swing and burst signal modulator."
+summary: "VCV Rack eurorack module for clock modulation, specifically a merger of a swing and burst signal modulator."
 date: 2022-11-24
 draft: false
 tags: ["synth", "vcv rack"]
@@ -13,12 +13,6 @@ UseHugoToc: true
 
 *Feel free to check out this and other Silly Sound modules at [the GitHub codebase](https://github.com/loparcog/SillySounds) (they're well commented I swear). All of the code mentioned in this article can be found in [src/Sesame.cpp](https://github.com/loparcog/SillySounds/blob/master/src/Sesame.cpp)*
 
-## Background
-
-There are multiple this to explain here before going into the actual project, but if you're familiar with VCV Rack you can probably skip ahead. Otherwise, here is a crash course for Eurorack as I understand it. Synthesizers commonly have multiple parts working in unison including something to make sound (commonly waveforms), something to filter that sound to add some *depth*, something to keep track of time and possibly sequence notes, and many, many more. All of these tools are implicitly part of the synthesizer though, which allow different parameters to be altered but always function and communicate in specific ways. Somewhere in the 50s to 60s someone moved towards making a more "modular" system, something that can have standard voltage inputs and outputs for each part of the synthesizer so you can customize exactly how different components communicate and are controlled. This has spiralled since then, and dawned the birth of Eurorack in the 90s. 
-
-Eurorack takes modular synthesizers one step further, and breaks components down into their own panels. Now users can pick and choose which modules they want to use in their setup, and since things are standardized, they can really combine any module from any manufacturer. This birthed a lot of really interesting sounds and equally confusing and expensive setups, which I am both excited and fearful to invest in. Thankfully, there are less costly options to play with modular synthesis, one of those being virtual synthesizers. There are many types of virtual synthesizers, but the one I'm focussing on today is [VCV Rack](vcvrack.com/). This open-source beauty is free to use and also has massive developer support, allowing anyone to create virtual modules and submit them to be on the official module library. I am heavily invested in audio programming right now, and as someone with minimal signal processing experience, I thought this would be a great place to start.
-
 *Also if you are wondering, Silly Sounds is a mock Eurorack module company that these plugins will be published under. The company has and will never have profits, but is also a fake company, so we are planned to meet our goals year over year.*
 
 ## What is it
@@ -27,16 +21,11 @@ Eurorack takes modular synthesizers one step further, and breaks components down
 
 The repeater, or burstfire, or whatever you would like to call it, essentially divides a single clock high into multiple smaller high signal. The repeater can be actuated on a beat-by-beat basis, and the number of beats the original beat is divided into can be moved from 1 to 8 times (*8 is not some technological limit, I just think things get muddy and messy past that and don't see a use case*). Both the amount of swing and number of beats the repeater puts out can be modulated automatically with an input signal, allowing these parameters to organically grow and shrink given any range of input. 
 
-<p align="center">
-    <img src="images/sesame.png"/>
-    <em>Sesame module plugged into a scope, showing clock input on the bottom and modulated output on the top</em>
-</p>
-
 ![Sesame module in VCV Rack](/img/sesame.png "Sesame module plugged into a scope, showing clock input on the bottom and modulated output on the top")
 
 ## How each part works
 
-Sesame is a three-parter in terms of code chunks. The first thing both the swing and repeat portions need is a measure of the current tempo. To do this, I have a timer tracking the time between rises from the clock signal, and I keep the latest gap between signals as the clock period. Every sample period (*how often the module process is called, commonly around the 40Hz mark*), a [Schmitt Trigger](https://en.wikipedia.org/wiki/Schmitt_trigger) processes the current clock input to check for a clock rise. If there is a rise, we record the period and restart the timer. Otherwise, we just continue.
+Sesame is a three-parter in terms of code chunks. The first thing both the swing and repeat portions need is a measure of the current tempo. To do this, I have a timer tracking the time between rises from the clock signal, and I keep the latest gap between signals as the clock period. Every sample period (*how often the module process is called, commonly around the 48Hz mark for VCV Rack*), a [Schmitt Trigger](https://en.wikipedia.org/wiki/Schmitt_trigger) processes the current clock input to check for a clock rise. If there is a rise, we record the period and restart the timer. Otherwise, we continue.
 
 ```cpp
 // Schmitt trigger initialization
