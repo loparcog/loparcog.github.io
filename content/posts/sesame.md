@@ -11,12 +11,6 @@ ShowBreadCrumbs: true
 UseHugoToc: true
 ---
 
-Title: Silly Sound's Sesame
-Date: 2022-11-24
-Tags: Synth, VCV Rack
-Category: Audio Programming
-Summary: A virtual eurorack module built in VCV Rack made for clock modulation, specifically a merger of a swing and burst signal modulator.
-
 *Feel free to check out this and other Silly Sound modules at [the GitHub codebase](https://github.com/loparcog/SillySounds) (they're well commented I swear). All of the code mentioned in this article can be found in [src/Sesame.cpp](https://github.com/loparcog/SillySounds/blob/master/src/Sesame.cpp)*
 
 ## Background
