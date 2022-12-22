@@ -10,11 +10,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Dec 2022 15:19:48 -0500</lastBuildDate><atom:link href="https://loparcog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://loparcog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>research</title>
+      <link>https://loparcog.github.io/tags/research/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://loparcog.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>synth</title>
       <link>https://loparcog.github.io/tags/synth/</link>
-      <pubDate>Thu, 15 Dec 2022 15:19:48 -0500</pubDate>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://loparcog.github.io/tags/synth/</guid>
       <description></description>
@@ -35,15 +44,6 @@
       <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://loparcog.github.io/tags/dog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>research</title>
-      <link>https://loparcog.github.io/tags/research/</link>
-      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://loparcog.github.io/tags/research/</guid>
       <description></description>
     </item>
     
