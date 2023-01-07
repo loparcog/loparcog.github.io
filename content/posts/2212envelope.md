@@ -67,5 +67,94 @@ As mentioned above, each piece has their pros and cons. The main things I want t
 
 With these in mind, I would mainly want to focus on an *advanced* version of the diode detector, maybe with some peak detection so we could be aware of jumps from high to low frequencies. The best way to discover what's best would be through testing though, so that's what's next currently.
 
+## What I am doing
+
+*Note that this is a stream of consciousness as I've been updating the module over time.*
+
+Now, for setting up a testing environment on waveform manipulation, I highly recommend looking towards Python with Scipy and MatPlotLib, so you can easily adjust parameters and see how different functions work on different waveforms. I did not do this though because I like to dive directly into the use case and also I wanted to keep momentum on this project without getting slowed down from importing different .WAVs to test on.
+
+So, alternatively, I have made a rough version of this future module to test directly in VCV Rack. I am also using [VCV Rack's Scope](https://library.vcvrack.com/Fundamental/Scope) to view the waveform I am creating, as well as [Audible Instrument's Macro Oscillator 2](https://library.vcvrack.com/AudibleInstruments/Plaits) (or as many of us formally know it, Plaits).
+
+
+![First testing deployment, with prototype Kyle module](/img/2301kyle1.png "First testing deployment, with prototype Kyle module")
+
+### T1: Diode Detector with Rectifier
+
+To start testing, the Kyle module was fitted with a diode detector implementation. This was obviously the easiest to implement, but it was also what I believed would be the closest to the final implementation of the model.
+
+```cpp
+// Abs the current value, make all peaks positive
+currVoltage = abs(inputs[SIGNAL_INPUT].getVoltage());
+// Set the output
+// If the signal is greater than the current output voltage
+if (currVoltage > outVoltage)
+{
+    // Set the output to the signal voltage
+    outVoltage = currVoltage;
+}
+// If the current output voltage is greater than the signal
+else
+{
+    // Reduce the output by a given decay value
+    outVoltage -= params[PDECAY_PARAM].getValue() / 1000;
+}
+// Set the output
+outputs[ENV_OUTPUT].setVoltage(outVoltage);
+```
+
+I had set the module to take any signal as an input and rectify it so all peaks were positive. Then, as the signal is running, the module would either clone the signal if the voltage was higher than its current voltage, or decay at a constant amount, ranging from 0 to 1/1000 per sample, depending on the `decay` knob value.
+
+![Kyle module running as basic diode detector](/img/2301kyle2.png "Kyle module running as basic diode detector")
+
+The decay, as expected, was extremely rigid. Hugging a waveform without some sort of exponential decay would definitely be an issue down the line. We could introduce some complexity into how we handle change in the waveform such as...
+
+- Exponential/logarithmic decay
+- Decay based on current voltage (stronger at higher voltage, weaker at lower)
+- Moving window decay (alternative of the above, looking at how radically the data changes over a certain historical period and adjusting the decay rate accordingly)
+
+
+Furthermore, the rigid nature of the waveform seems to really come to a head at near-constant or low change areas of the signal waveform, namely at the low voltages of our test. This is somewhere that the current voltage decay basing and/or moving window could come in handy.
+
+With all of this, the next implementation of the Kyle module would include some controls for toggling between exponential or linear decay, as well as altering decay based on current voltage. The moving window is something I find interesting, but will be looked at down the line if necessary.
+
+### T2: Diode Detector with Mass Adjustment Parameters
+
+Next try, new controls! Things have gotten undeniably worse visually but that's what prototyping is for! Added in now are controls to change the decay type between exponential, linear, and logarithmic, as well as a knob to control how much the current voltage affects how fast the decay takes place. 
+
+![Upgraded Kyle module with more decay controls](/img/2301kyle3.png "Upgraded Kyle module with more decay controls")
+
+Some immediate roadblocks were shown, mainly in having a constant exponential or logarithmic decay. When tweaking the `decay` knob, you could get a good curve to hug any quickly dropping high peaks, but whenever the voltage reached much lower values than that peak, there would be a *fuzz* of the curve immediately dropping from the low voltage, to somewhere much lower than the original waveform, and then bouncing back up. This was the wake-up call that reminded me that I would **need** to make the exponential and logarithmic decays relative to the voltages of the original signal, rather than keep it as its own knob.
+
+```cpp
+// Exponential, return function of time
+float expDecay()
+{
+    // e^(t * decay) * currVoltage / 10
+    return exp(t * (params[PDECAY_PARAM].getValue() * 10.f)) * (currVoltage / 7500.f);
+}
+
+// Linear, return constant decay
+float linDecay()
+{
+    // linear, just decay
+    return params[PDECAY_PARAM].getValue() / 1000.f;
+}
+
+// Logarithmic, return function of time
+float logDecay()
+{
+    // log(t * decay) * currVoltage / 10
+    return std::max(0.f, log(t * (params[PDECAY_PARAM].getValue() * 10.f)) * (currVoltage / 10.f));
+}
+```
+
+I also realized that my terminology was off. The curves that I was looking to model in the decay were ones bowing inward and outwards, but the `exp` and `log` decay curves both curve outwards. To get the curves I wanted, I would be looking at an `exp` and inverse `exp` function. Because of this, and after some testing, I realized the UI could be better by having one knob control the acceleration of the curve while the other can scale the entire decay function:
+
+$$\text{decay}*e^{\text{accel}}$$
+
+The decay knob would stay as-is, and the selector would then be replaced by the acceleration knob, or what will likely just be labelled `exp`. The voltage impact knob as seen on this demo will be removed since it is unneeded. 
+
+Something else I was wondering about was if we used inverse exponential decay at high amplitudes and regular exponential decay at low amplitudes, but that may be more complicated than it's worth and would need to introduce more controls. I'll mainly be looking at how the above works in the next iteration.
+
 
 
