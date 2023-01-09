@@ -1,6 +1,6 @@
 baseURL: https://loparcog.github.io/
 languageCode: en
-title: giacomo
+title: Giacomo
 theme: "PaperMod"
 paginate: 5
 
@@ -16,7 +16,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: giacomo
-  description: "programming, dogs, music, and crazed ramblings"
+  description: "programming and pets / toronto, on"
   keywords: [Blog, Portfolio, Programming, Coding]
   author: Giacomo Loparco
   # author: ["Me", "You"] # multiple authors
@@ -52,7 +52,7 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: giacomo
-    subtitle: "This is subtitle"
+    subtitle: "hi there!"
     imageUrl: "https://avatars.githubusercontent.com/u/36307557?v=4"
     imageWidth: 300
     imageHeight: 300
@@ -65,11 +65,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Lizard sunning on a rock \U0001F98E \U0001FAA8"
-    Content: >
-      audio programming, dogs, and whatever catches my short and sporadic attention span
+    Title: >
+      - giacomo
 
-      - he/they
+      - loparco
+    Content: >
+      - programming and pets
+
+      - toronto, canada
+
+      - any pronouns
 
   socialIcons:
     - name: twitter
@@ -92,3 +97,7 @@ menu:
       name: archives
       url: /archives/
       weight: 20
+    - identifier: animals
+      name: animals
+      url: /animals/
+      weight: 30
