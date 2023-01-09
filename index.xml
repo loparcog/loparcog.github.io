@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>giacomo</title>
+    <title>Giacomo</title>
     <link>https://loparcog.github.io/</link>
-    <description>Recent content on giacomo</description>
+    <description>Recent content on Giacomo</description>
     <image>
       <url>https://loparcog.github.io/img/pfp.png</url>
       <link>https://loparcog.github.io/img/pfp.png</link>
@@ -63,6 +63,15 @@
       
       <guid>https://loparcog.github.io/posts/2105dogument/</guid>
       <description>New dog coming in, gathered a boatload of information for preparation and reference. Future edit, her name is Lola and she is a dream.</description>
+    </item>
+    
+    <item>
+      <title>Animals</title>
+      <link>https://loparcog.github.io/animals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://loparcog.github.io/animals/</guid>
+      <description>Any animals I seen for at least enough time to get a picture and for Emma to name</description>
     </item>
     
     
