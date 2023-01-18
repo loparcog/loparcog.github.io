@@ -156,5 +156,64 @@ The decay knob would stay as-is, and the selector would then be replaced by the 
 
 Something else I was wondering about was if we used inverse exponential decay at high amplitudes and regular exponential decay at low amplitudes, but that may be more complicated than it's worth and would need to introduce more controls. I'll mainly be looking at how the above works in the next iteration.
 
+### T3: Exponential Decay Diode Detector
+
+**IT MODERATELY WORKS!** This is the first iteration that I am happy to use as a base to tweak for final release. Since the last try, I implemented the `exp` knob as described above. Negative values make it curve in while positive values make it curve out. I also added an amplification knob to multiply the output, allowing even small changes to be much more impactful for sidechain usage.
+
+![First functional Kyle module with exponent customization](/img/2301kyle4.png "First functional Kyle module with exponent customization")
+
+This time around, the code has gotten quite neat and compact, to the point I can put the whole process code here pretty comfortably. Some notable changes are now scaling the decay value in relation to the sample rate to keep things consistent at different values, as well as finally implementing the inverse envelope to allow for level/VCA modulation.
+
+```cpp
+// Get input voltage (keep it positive)
+currVoltage = abs(inputs[SIGNAL_INPUT].getVoltage());
+// Add to the timer
+t += args.sampleTime;
+
+/*
+    We decay the signal either exponentially if PEXP != 0,
+    otherwise we decay linearly
+    out - (decay * e^(exp))
+*/
+outVoltage = outVoltage - ((params[PDECAY_PARAM].getValue() / args.sampleRate) *
+                            exp((params[PEXP_PARAM].getValue() * t)));
+
+/*
+    If the original signal is greater than our output voltage,
+        currVoltage > outVoltage
+    Set the output to the signal voltage. Otherwise, use the
+    decayed output voltage
+*/
+if (currVoltage >= outVoltage)
+{
+    outVoltage = currVoltage;
+    // Reset the time
+    t = 0.f;
+}
+outVoltage = std::max(currVoltage, outVoltage);
+
+// Amplify the output (maxing out at 10)
+ampOut = std::min(10.f, abs(outVoltage * (1 + 9.f * params[PAMP_PARAM].getValue())));
+
+// Set output voltages, accounting for amplification
+outputs[ENV_OUTPUT].setVoltage(ampOut);
+outputs[ENVINV_OUTPUT].setVoltage(10 - ampOut);
+```
+
+As usual, there is always more to fix and improve on.
+
+Using a negative exponent is very cool for hugging a shrinking waveform without ever needing to hit that waveform until the next peak, but at high negative values and low decay values it does not converge to 0. This is also seen with a constant decay and decay set to 0. This could likely be fixed by checking if the input has been at or around 0 for a number of samples, and/or if anything is plugged into the unit. If this is the case, we can slowly decay the value to 0 or just jump it.
+
+As mentioned in the last iteration, there could be a use for using both positive and negative exponential decay values depending on the current voltage of the signal, but I will likely leave that for a revamp of the module in the future (which I can then change $20 more for).
+
+I was also thinking of the possibility of adding a `max` and `min` value, scaling all voltages from the original signal above `max` to an output of 10V, all voltages below `min` to an output of 0V, and appropriately matching the central values. I'm gonna run this all by some people to see how useful it could be and if it's worthwhile to implement.
+
+The final thing to touch upon would probably be some iconography to help visually explain what different exponent values and even amplification values mean, there's enough room for it too so why not.
+
+## Where from here
+
+I think Kyle has reached a stable enough point for a base release, with a lot to think on for a future refactor. Once this module releases, the Kyle, Sesame, and Lola modules will all be reviewed to add in any extra features as well as resource test to confirm they'll work well in VCV Rack. Finally, assuming all this goes well, they'll be submitted to the [VCV Library](https://library.vcvrack.com/). Until then, I write.
+
+
 
 

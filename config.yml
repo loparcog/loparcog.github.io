@@ -15,7 +15,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: giacomo
+  title: Giacomo
   description: "programming and pets / toronto, on"
   keywords: [Blog, Portfolio, Programming, Coding]
   author: Giacomo Loparco
