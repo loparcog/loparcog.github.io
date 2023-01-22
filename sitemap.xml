@@ -2,28 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://loparcog.github.io/posts/2212envelope/</loc>
-    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://loparcog.github.io/</loc>
-    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-21T15:17:32-05:00</lastmod>
   </url><url>
     <loc>https://loparcog.github.io/posts/</loc>
+    <lastmod>2023-01-21T15:17:32-05:00</lastmod>
+  </url><url>
+    <loc>https://loparcog.github.io/posts/2301kyle/</loc>
+    <lastmod>2023-01-21T15:17:32-05:00</lastmod>
+  </url><url>
+    <loc>https://loparcog.github.io/tags/synth/</loc>
+    <lastmod>2023-01-21T15:17:32-05:00</lastmod>
+  </url><url>
+    <loc>https://loparcog.github.io/tags/</loc>
+    <lastmod>2023-01-21T15:17:32-05:00</lastmod>
+  </url><url>
+    <loc>https://loparcog.github.io/tags/vcv-rack/</loc>
+    <lastmod>2023-01-21T15:17:32-05:00</lastmod>
+  </url><url>
+    <loc>https://loparcog.github.io/posts/2212envelope/</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://loparcog.github.io/tags/research/</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://loparcog.github.io/tags/synth/</loc>
-    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://loparcog.github.io/tags/</loc>
-    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://loparcog.github.io/posts/2212lola/</loc>
-    <lastmod>2022-12-15T15:19:48-05:00</lastmod>
-  </url><url>
-    <loc>https://loparcog.github.io/tags/vcv-rack/</loc>
     <lastmod>2022-12-15T15:19:48-05:00</lastmod>
   </url><url>
     <loc>https://loparcog.github.io/posts/2211sesame/</loc>
