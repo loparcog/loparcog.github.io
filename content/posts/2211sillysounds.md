@@ -29,5 +29,5 @@ Any module code can be found at [my Silly Sounds GitHub repo](https://github.com
 
 - [Sesame]({{<ref "2211sesame.md">}}): A clock modulator to allow for clock swing and signal burst, as well as the use of both simultaneously
 - [Lola]({{<ref "2212lola.md">}}): A live sampler to take input and repeat it at any given time
-- Kyle (TBA): A sidechaining module utilizing envelope detection to dampen other signals when a given signal amplifies
+- [Kyle]({{<ref "2301kyle.md">}}): A sidechaining module utilizing envelope detection to dampen other signals when a given signal amplifies
 
