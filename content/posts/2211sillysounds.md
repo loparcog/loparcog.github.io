@@ -25,7 +25,7 @@ Eurorack takes modular synthesizers one step further, and breaks components down
 
 ## Current and Future Modules
 
-Any module code can be found at [my Silly Sounds GitHub repo](https://github.com/loparcog/SillySounds), with each having their own writeup here on how they work and how they were made. As it stands there are three modules
+Silly Sounds has been officially released, and all modules can be found in the [VCV Rack Library](https://library.vcvrack.com/?brand=Silly%20Sounds)! Any module code can be found at [my Silly Sounds GitHub repo](https://github.com/loparcog/SillySounds), with each having their own writeup here on how they work and how they were made. As it stands there are three modules (with links to each article):
 
 - [Sesame]({{<ref "2211sesame.md">}}): A clock modulator to allow for clock swing and signal burst, as well as the use of both simultaneously
 - [Lola]({{<ref "2212lola.md">}}): A live sampler to take input and repeat it at any given time

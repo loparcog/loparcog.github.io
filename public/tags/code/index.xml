@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code on Giacomo</title>
+    <link>https://loparcog.github.io/tags/code/</link>
+    <description>Recent content in code on Giacomo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Jan 2023 15:17:32 -0500</lastBuildDate><atom:link href="https://loparcog.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Silly Sound&#39;s Kyle 🐈</title>
+      <link>https://loparcog.github.io/posts/2301kyle/</link>
+      <pubDate>Sat, 21 Jan 2023 15:17:32 -0500</pubDate>
+      
+      <guid>https://loparcog.github.io/posts/2301kyle/</guid>
+      <description>VCV Rack eurorack module for envelope detecting and sidechaining</description>
+    </item>
+    
+    <item>
+      <title>Envelope Detector Research and Ramblings ✉️</title>
+      <link>https://loparcog.github.io/posts/2212envelope/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://loparcog.github.io/posts/2212envelope/</guid>
+      <description>Looking into different envelope detecting methods for a future sidechaining module</description>
+    </item>
+    
+    <item>
+      <title>Silly Sound&#39;s Lola 🐶</title>
+      <link>https://loparcog.github.io/posts/2212lola/</link>
+      <pubDate>Thu, 15 Dec 2022 15:19:48 -0500</pubDate>
+      
+      <guid>https://loparcog.github.io/posts/2212lola/</guid>
+      <description>VCV Rack eurorack module for live signal sampling and playback</description>
+    </item>
+    
+    <item>
+      <title>Silly Sound&#39;s Sesame 🐱</title>
+      <link>https://loparcog.github.io/posts/2211sesame/</link>
+      <pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://loparcog.github.io/posts/2211sesame/</guid>
+      <description>VCV Rack eurorack module for clock modulation, specifically a merger of a swing and burst signal modulator.</description>
+    </item>
+    
+    <item>
+      <title>Conway&#39;s Game of Synth 👾</title>
+      <link>https://loparcog.github.io/posts/2201conway/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://loparcog.github.io/posts/2201conway/</guid>
+      <description>Merging an interest in Conway&amp;rsquo;s Game of Life with very crude generative synthesis in a small side project.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,7 +3,7 @@ title: "Envelope Detector Research and Ramblings \u2709\uFE0F"
 summary: "Looking into different envelope detecting methods for a future sidechaining module"
 date: 2022-12-19
 draft: false
-tags: ["synth", "research"]
+tags: ["synth", "research", "code"]
 showToc: true
 TocOpen: false
 ShowReadingTime: true

@@ -3,7 +3,7 @@ title: "Conway's Game of Synth \U0001F47E"
 summary: "Merging an interest in Conway's Game of Life with very crude generative synthesis in a small side project."
 date: 2022-01-31
 draft: false
-tags: ["synth"]
+tags: ["synth", "code"]
 showToc: true
 TocOpen: false
 ShowReadingTime: true

@@ -3,7 +3,7 @@ title: "Silly Sound's Sesame \U0001F431"
 summary: "VCV Rack eurorack module for clock modulation, specifically a merger of a swing and burst signal modulator."
 date: 2022-11-24
 draft: false
-tags: ["synth", "vcv rack"]
+tags: ["synth", "vcv rack", "code"]
 showToc: true
 TocOpen: false
 ShowReadingTime: true
