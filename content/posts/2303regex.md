@@ -1,7 +1,7 @@
 ---
 title: "Regular Expression Power Hour \U0001F524"
 summary: "Also known as \"String Comprehension\", \"Code Within Code\", and \"Annoying\""
-date: 2023-03-31T16:32:24-05:00
+date: 2023-03-31T12:00:00-05:00
 draft: false
 tags: ["research", "code"]
 showToc: true
