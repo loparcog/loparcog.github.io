@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>personal on Giacomo</title>
+    <link>https://loparcog.github.io/tags/personal/</link>
+    <description>Recent content in personal on Giacomo</description>
+    <image>
+      <url>https://loparcog.github.io/img/pfp.png</url>
+      <link>https://loparcog.github.io/img/pfp.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loparcog.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UK / Living Symphonies 🌲</title>
+      <link>https://loparcog.github.io/posts/2305uk/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://loparcog.github.io/posts/2305uk/</guid>
+      <description>A week of art and forest in Warwick, UK, as well as a summary of what I was doing for the last 6 months</description>
+    </item>
+    
+    <item>
+      <title>Lola&#39;s Research Dogument 🐕</title>
+      <link>https://loparcog.github.io/posts/2105dogument/</link>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://loparcog.github.io/posts/2105dogument/</guid>
+      <description>New dog coming in, gathered a boatload of information for preparation and reference. Future edit, her name is Lola and she is a dream.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Mar 2023 12:00:00 -0500</lastBuildDate><atom:link href="https://loparcog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loparcog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UK / Living Symphonies 🌲</title>
+      <link>https://loparcog.github.io/posts/2305uk/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://loparcog.github.io/posts/2305uk/</guid>
+      <description>A week of art and forest in Warwick, UK, as well as a summary of what I was doing for the last 6 months</description>
+    </item>
+    
     <item>
       <title>Regular Expression Power Hour 🔤</title>
       <link>https://loparcog.github.io/posts/2303regex/</link>
@@ -89,7 +98,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://loparcog.github.io/animals/</guid>
-      <description>Any animals I seen for at least enough time to get a picture and for Emma to name</description>
+      <description>Any animals I know of and love</description>
     </item>
     
     

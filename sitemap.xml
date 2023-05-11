@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://loparcog.github.io/tags/code/</loc>
-    <lastmod>2023-03-31T12:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://loparcog.github.io/</loc>
-    <lastmod>2023-03-31T12:00:00-05:00</lastmod>
+    <lastmod>2023-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://loparcog.github.io/tags/personal/</loc>
+    <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://loparcog.github.io/posts/</loc>
+    <lastmod>2023-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://loparcog.github.io/tags/</loc>
+    <lastmod>2023-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://loparcog.github.io/posts/2305uk/</loc>
+    <lastmod>2023-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://loparcog.github.io/tags/code/</loc>
     <lastmod>2023-03-31T12:00:00-05:00</lastmod>
   </url><url>
     <loc>https://loparcog.github.io/posts/2303regex/</loc>
     <lastmod>2023-03-31T12:00:00-05:00</lastmod>
   </url><url>
     <loc>https://loparcog.github.io/tags/research/</loc>
-    <lastmod>2023-03-31T12:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://loparcog.github.io/tags/</loc>
     <lastmod>2023-03-31T12:00:00-05:00</lastmod>
   </url><url>
     <loc>https://loparcog.github.io/posts/2301kyle/</loc>
@@ -43,9 +49,6 @@
   </url><url>
     <loc>https://loparcog.github.io/posts/2201conway/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://loparcog.github.io/tags/dog/</loc>
-    <lastmod>2021-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://loparcog.github.io/posts/2105dogument/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
