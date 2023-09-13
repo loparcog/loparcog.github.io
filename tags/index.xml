@@ -10,22 +10,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loparcog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 13:58:52 -0400</lastBuildDate><atom:link href="https://loparcog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>code</title>
+      <link>https://loparcog.github.io/tags/code/</link>
+      <pubDate>Tue, 16 May 2023 13:58:52 -0400</pubDate>
+      
+      <guid>https://loparcog.github.io/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webdev</title>
+      <link>https://loparcog.github.io/tags/webdev/</link>
+      <pubDate>Tue, 16 May 2023 13:58:52 -0400</pubDate>
+      
+      <guid>https://loparcog.github.io/tags/webdev/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>personal</title>
       <link>https://loparcog.github.io/tags/personal/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://loparcog.github.io/tags/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code</title>
-      <link>https://loparcog.github.io/tags/code/</link>
-      <pubDate>Fri, 31 Mar 2023 12:00:00 -0500</pubDate>
-      
-      <guid>https://loparcog.github.io/tags/code/</guid>
       <description></description>
     </item>
     

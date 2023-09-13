@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loparcog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 13:58:52 -0400</lastBuildDate><atom:link href="https://loparcog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Game of Disconnecting 🔌</title>
+      <link>https://loparcog.github.io/posts/2305disconnecc/</link>
+      <pubDate>Tue, 16 May 2023 13:58:52 -0400</pubDate>
+      
+      <guid>https://loparcog.github.io/posts/2305disconnecc/</guid>
+      <description>My first dive into actual site and service hosting through disconne.cc</description>
+    </item>
+    
     <item>
       <title>UK / Living Symphonies 🌲</title>
       <link>https://loparcog.github.io/posts/2305uk/</link>

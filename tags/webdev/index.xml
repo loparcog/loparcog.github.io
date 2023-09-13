@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>webdev on Giacomo</title>
+    <link>https://loparcog.github.io/tags/webdev/</link>
+    <description>Recent content in webdev on Giacomo</description>
+    <image>
+      <url>https://loparcog.github.io/img/pfp.png</url>
+      <link>https://loparcog.github.io/img/pfp.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 May 2023 13:58:52 -0400</lastBuildDate><atom:link href="https://loparcog.github.io/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Game of Disconnecting 🔌</title>
+      <link>https://loparcog.github.io/posts/2305disconnecc/</link>
+      <pubDate>Tue, 16 May 2023 13:58:52 -0400</pubDate>
+      
+      <guid>https://loparcog.github.io/posts/2305disconnecc/</guid>
+      <description>My first dive into actual site and service hosting through disconne.cc</description>
+    </item>
+    
+  </channel>
+</rss>
