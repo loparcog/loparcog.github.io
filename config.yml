@@ -1,6 +1,6 @@
 baseURL: https://loparcog.github.io/
 languageCode: en
-title: Giacomo
+title: Gillian
 theme: "PaperMod"
 paginate: 5
 
@@ -15,10 +15,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Giacomo
-  description: "programming and pets / toronto, on"
+  title: Gillian
+  description: "programming and noise / toronto, on"
   keywords: [Blog, Portfolio, Programming, Coding]
-  author: Giacomo Loparco
+  author: Gillian Loparco
   # author: ["Me", "You"] # multiple authors
   images: ["img/pfp.png"]
   DateFormat: "January 2, 2006"
@@ -51,7 +51,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: giacomo
+    title: Gillian
     subtitle: "hi there!"
     imageUrl: "https://avatars.githubusercontent.com/u/36307557?v=4"
     imageWidth: 300
@@ -66,19 +66,17 @@ params:
   # home-info mode
   homeInfoParams:
     Title: >
-      - giacomo
+      - gillian
 
       - loparco
     Content: >
-      - programming and pets
+      - programming and noise
 
       - toronto, canada
 
-      - any pronouns
+      - she/they
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/gxacomo"
     - name: github
       url: "https://github.com/loparcog"
 
