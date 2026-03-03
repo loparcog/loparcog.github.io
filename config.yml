@@ -2,7 +2,7 @@ baseURL: https://loparcog.github.io/
 languageCode: en
 title: Gillian
 theme: "PaperMod"
-paginate: 5
+paginate.pagerSize: 5
 
 enableRobotsTXT: true
 buildDrafts: false

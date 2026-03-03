@@ -1,56 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>code on Giacomo</title>
-    <link>https://loparcog.github.io/tags/code/</link>
-    <description>Recent content in code on Giacomo</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Code on Gillian</title>
+    <link>http://localhost:1313/tags/code/</link>
+    <description>Recent content in Code on Gillian</description>
+    <image>
+      <title>Gillian</title>
+      <url>http://localhost:1313/img/pfp.png</url>
+      <link>http://localhost:1313/img/pfp.png</link>
+    </image>
+    <generator>Hugo -- 0.157.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Jan 2023 15:17:32 -0500</lastBuildDate><atom:link href="https://loparcog.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 13:58:52 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Game of Disconnecting 🔌</title>
+      <link>http://localhost:1313/posts/2305disconnecc/</link>
+      <pubDate>Tue, 16 May 2023 13:58:52 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2305disconnecc/</guid>
+      <description>My first dive into actual site and service hosting through disconne.cc</description>
+    </item>
+    <item>
+      <title>Regular Expression Power Hour 🔤</title>
+      <link>http://localhost:1313/posts/2303regex/</link>
+      <pubDate>Fri, 31 Mar 2023 12:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/2303regex/</guid>
+      <description>Also known as &amp;ldquo;String Comprehension&amp;rdquo;, &amp;ldquo;Code Within Code&amp;rdquo;, and &amp;ldquo;Annoying&amp;rdquo;</description>
+    </item>
     <item>
       <title>Silly Sound&#39;s Kyle 🐈</title>
-      <link>https://loparcog.github.io/posts/2301kyle/</link>
+      <link>http://localhost:1313/posts/2301kyle/</link>
       <pubDate>Sat, 21 Jan 2023 15:17:32 -0500</pubDate>
-      
-      <guid>https://loparcog.github.io/posts/2301kyle/</guid>
+      <guid>http://localhost:1313/posts/2301kyle/</guid>
       <description>VCV Rack eurorack module for envelope detecting and sidechaining</description>
     </item>
-    
     <item>
       <title>Envelope Detector Research and Ramblings ✉️</title>
-      <link>https://loparcog.github.io/posts/2212envelope/</link>
+      <link>http://localhost:1313/posts/2212envelope/</link>
       <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://loparcog.github.io/posts/2212envelope/</guid>
+      <guid>http://localhost:1313/posts/2212envelope/</guid>
       <description>Looking into different envelope detecting methods for a future sidechaining module</description>
     </item>
-    
     <item>
       <title>Silly Sound&#39;s Lola 🐶</title>
-      <link>https://loparcog.github.io/posts/2212lola/</link>
+      <link>http://localhost:1313/posts/2212lola/</link>
       <pubDate>Thu, 15 Dec 2022 15:19:48 -0500</pubDate>
-      
-      <guid>https://loparcog.github.io/posts/2212lola/</guid>
+      <guid>http://localhost:1313/posts/2212lola/</guid>
       <description>VCV Rack eurorack module for live signal sampling and playback</description>
     </item>
-    
     <item>
       <title>Silly Sound&#39;s Sesame 🐱</title>
-      <link>https://loparcog.github.io/posts/2211sesame/</link>
+      <link>http://localhost:1313/posts/2211sesame/</link>
       <pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://loparcog.github.io/posts/2211sesame/</guid>
+      <guid>http://localhost:1313/posts/2211sesame/</guid>
       <description>VCV Rack eurorack module for clock modulation, specifically a merger of a swing and burst signal modulator.</description>
     </item>
-    
     <item>
       <title>Conway&#39;s Game of Synth 👾</title>
-      <link>https://loparcog.github.io/posts/2201conway/</link>
+      <link>http://localhost:1313/posts/2201conway/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://loparcog.github.io/posts/2201conway/</guid>
+      <guid>http://localhost:1313/posts/2201conway/</guid>
       <description>Merging an interest in Conway&amp;rsquo;s Game of Life with very crude generative synthesis in a small side project.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Webdev on Gillian</title>
+    <link>http://localhost:1313/tags/webdev/</link>
+    <description>Recent content in Webdev on Gillian</description>
+    <image>
+      <title>Gillian</title>
+      <url>http://localhost:1313/img/pfp.png</url>
+      <link>http://localhost:1313/img/pfp.png</link>
+    </image>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 May 2023 13:58:52 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Game of Disconnecting 🔌</title>
+      <link>http://localhost:1313/posts/2305disconnecc/</link>
+      <pubDate>Tue, 16 May 2023 13:58:52 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2305disconnecc/</guid>
+      <description>My first dive into actual site and service hosting through disconne.cc</description>
+    </item>
+  </channel>
+</rss>
