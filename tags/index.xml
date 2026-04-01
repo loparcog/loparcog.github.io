@@ -9,10 +9,17 @@
       <url>https://loparcog.github.io/img/pfp.png</url>
       <link>https://loparcog.github.io/img/pfp.png</link>
     </image>
-    <generator>Hugo -- 0.157.0</generator>
+    <generator>Hugo -- 0.159.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 May 2023 13:58:52 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://loparcog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal</title>
+      <link>https://loparcog.github.io/tags/personal/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://loparcog.github.io/tags/personal/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Code</title>
       <link>https://loparcog.github.io/tags/code/</link>
@@ -25,13 +32,6 @@
       <link>https://loparcog.github.io/tags/webdev/</link>
       <pubDate>Tue, 16 May 2023 13:58:52 -0400</pubDate>
       <guid>https://loparcog.github.io/tags/webdev/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal</title>
-      <link>https://loparcog.github.io/tags/personal/</link>
-      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://loparcog.github.io/tags/personal/</guid>
       <description></description>
     </item>
     <item>
