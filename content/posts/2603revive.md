@@ -21,7 +21,7 @@ So what has happened in the last three years? I'm genuinely not sure, so this po
 
 ## The latter half of 2023
 
-Sales at Darktrace was getting a little more sales-y than I wanted, and I wanted to get back into the development world. Sadly, the development team for Darktrace was in the UK, and as much as I loved [my time in the UK earlier that year](see {{<ref "2305uk.md">}}), I was not ready to leave my post in Toronto. Instead, I started joining local development operations, primarily on internal tools. I had a friend get married, I went to the AGO with another friend, got a Miyoo Mini+ which is a lovely game emulation tool, signed up to some generally *spiritual* email lists, and started seeing my therapist again. In general, I existed.
+Sales at Darktrace was getting a little more sales-y than I wanted, and I wanted to get back into the development world. Sadly, the development team for Darktrace was in the UK, and as much as I loved my time in the UK earlier that year(see [my earlier post from that year]({{<ref "2305uk.md">}})), I was not ready to leave my post in Toronto. Instead, I started joining local development operations, primarily on internal tools. I had a friend get married, I went to the AGO with another friend, got a Miyoo Mini+ which is a lovely game emulation tool, signed up to some *spiritual* email lists, and started seeing my therapist again. In general, I existed.
 
 I got into Geese, yeule, Mary Lattimore, and a handful of small ambient projects this year.
 

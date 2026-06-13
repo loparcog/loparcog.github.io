@@ -3,19 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/personal/</loc>
-    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2604sspolyphony/</loc>
+    <lastmod>2026-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/synth/</loc>
+    <lastmod>2026-04-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vcv-rack/</loc>
+    <lastmod>2026-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/personal/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2603revive/</loc>
-    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2023-05-16T13:58:52-04:00</lastmod>
@@ -36,12 +45,6 @@
     <lastmod>2023-03-31T12:00:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2301kyle/</loc>
-    <lastmod>2023-01-21T15:17:32-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/synth/</loc>
-    <lastmod>2023-01-21T15:17:32-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vcv-rack/</loc>
     <lastmod>2023-01-21T15:17:32-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2212envelope/</loc>
