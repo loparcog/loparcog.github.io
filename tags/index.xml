@@ -9,10 +9,24 @@
       <url>https://loparcog.github.io/img/pfp.png</url>
       <link>https://loparcog.github.io/img/pfp.png</link>
     </image>
-    <generator>Hugo -- 0.160.0</generator>
+    <generator>Hugo -- 0.163.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://loparcog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Synth</title>
+      <link>https://loparcog.github.io/tags/synth/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://loparcog.github.io/tags/synth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vcv Rack</title>
+      <link>https://loparcog.github.io/tags/vcv-rack/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://loparcog.github.io/tags/vcv-rack/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Personal</title>
       <link>https://loparcog.github.io/tags/personal/</link>
@@ -39,20 +53,6 @@
       <link>https://loparcog.github.io/tags/research/</link>
       <pubDate>Fri, 31 Mar 2023 12:00:00 -0500</pubDate>
       <guid>https://loparcog.github.io/tags/research/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Synth</title>
-      <link>https://loparcog.github.io/tags/synth/</link>
-      <pubDate>Sat, 21 Jan 2023 15:17:32 -0500</pubDate>
-      <guid>https://loparcog.github.io/tags/synth/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vcv Rack</title>
-      <link>https://loparcog.github.io/tags/vcv-rack/</link>
-      <pubDate>Sat, 21 Jan 2023 15:17:32 -0500</pubDate>
-      <guid>https://loparcog.github.io/tags/vcv-rack/</guid>
       <description></description>
     </item>
   </channel>
