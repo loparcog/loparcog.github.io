@@ -31,7 +31,7 @@ Lola was a little easier, since it is just a signal recorder and replayer. Only 
 
 Kyle is also quite simple, now specific channels can cause dips depending on the polyphonic input. It has essentially expanded to act on up to 16 signals sequentially instead of just one. If the old functionality is required, you would just need to combine your signal into one channel before feeding it to Kyle.
 
-## Panel Visual Updates
+## Panel visual updates
 
 This is definitely a more minor change, but I am big on aesthetics so I am very proud of making Sesame less ugly. Overall changes listed below:
 
