@@ -2,7 +2,7 @@
 title: "Arch Ubuntu Dualboot: Boot Loader Conflict \U0001F6AB \U0001F4BB"
 summary: "Ubuntu has declared a dictatorship and it's probably my fault for not setting political safeguards"
 date: 2026-06-28
-draft: false
+draft: true
 tags: ["os"]
 showToc: true
 TocOpen: false
@@ -80,5 +80,8 @@ The internet is in fact, terrible, and I have now boot-looped my system.
 ## End result
 
 [REDDIT](https://www.reddit.com/r/archlinux/comments/17ejfon/broke_and_fixed_my_arch_system/)
+
+https://forum.endeavouros.com/t/chroot-into-a-btrfs-uefi-system-from-live-media/15986/3
+
 
 ### How was the album?
