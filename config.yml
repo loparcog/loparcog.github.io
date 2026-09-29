@@ -1,5 +1,5 @@
 baseURL: https://loparcog.github.io/
-languageCode: en
+locale: en
 title: Gillian
 theme: "PaperMod"
 paginate.pagerSize: 5
@@ -20,7 +20,7 @@ params:
   keywords: [Blog, Portfolio, Programming, Coding]
   author: Gillian Loparco
   # author: ["Me", "You"] # multiple authors
-  images: ["img/pfp.png"]
+  images: ["img/pfp2.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
